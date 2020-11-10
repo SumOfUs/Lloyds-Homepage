@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "darker-grotesque-black";
+    src: url("/fonts/DarkerGrotesque-Black.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "darker-grotesque-bold";
+    src: url("/fonts/DarkerGrotesque-Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "darker-grotesque-extra-bold";
+    src: url("/fonts/DarkerGrotesque-ExtraBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "darker-grotesque-light";
+    src: url("/fonts/DarkerGrotesque-Light.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "darker-grotesque-medium";
+    src: url("/fonts/DarkerGrotesque-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "darker-grotesque-regular";
+    src: url("/fonts/DarkerGrotesque-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "darker-grotesque-semi-bold";
+    src: url("/fonts/DarkerGrotesque-SemiBold.ttf") format("truetype");
+  }
+  
+  .primary-black {
+    font-family: "darker-grotesque-black";
+  }
+  .primary-bold {
+    font-family: "darker-grotesque-bold";
+  }
+  .primary-extra-bold {
+    font-family: "darker-grotesque-extra-bold";
+  }
+  .primary-semi-bold {
+    font-family: "darker-grotesque-semi-bold";
+  }
+  .primary-light {
+    font-family: "darker-grotesque-light";
+  }
+  .primary-regular {
+    font-family: "darker-grotesque-regular";
+  }
+  .primary-medium {
+    font-family: "darker-grotesque-medium";
+  }
+  
