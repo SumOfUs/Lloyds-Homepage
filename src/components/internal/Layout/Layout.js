@@ -7,9 +7,7 @@ const Layout = ({ children, customMetadata = {} }) => {
     description:
       customMetadata.description ||
       "Insuring fossil fuels & Profiting from climate destruction",
-    image:
-      customMetadata.image ||
-      "https://assets.cheftoyourtable.com/images/ctyt-logo.png",
+    image: customMetadata.image || "/icon/logo.png",
     url: customMetadata.url || process.env.NOW_URL,
   };
 
