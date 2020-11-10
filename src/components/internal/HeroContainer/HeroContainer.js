@@ -77,13 +77,13 @@ function HeroContainer() {
           <div className="primary-medium text-2xl my-4">
             Insuring fossil fuels & Profiting from climate destruction
           </div>
-          <button className="w-48 py-3 bg-blue-900 primary-bold">
+          <button className="w-48 py-3 bg-blue-900 primary-bold text-xl">
             Watch our video
           </button>
         </div>
         <div className="absolute top-60 right-0 mr-16 flex">
           <div
-            className="w-12 h-12 bg-blue-900 px-2 py-2 cursor-pointer"
+            className="w-12 h-12 bg-blue-900 px-2 py-2 cursor-pointer flex items-center justify-center"
             onClick={() => {
               setActiveSlide(
                 activeSlide === 0 ? HeroBannerItems.length - 1 : activeSlide - 1
@@ -93,7 +93,7 @@ function HeroContainer() {
             <img src="/icons/left-play.png" alt="left-play" />
           </div>
           <div
-            className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer"
+            className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer flex items-center justify-center"
             onClick={() => {
               setActiveSlide(
                 HeroBannerItems.length - 1 === activeSlide ? 0 : activeSlide + 1
