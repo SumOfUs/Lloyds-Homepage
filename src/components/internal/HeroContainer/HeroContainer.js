@@ -70,7 +70,7 @@ function HeroContainer() {
         })}
       </Carousel>
       <div className="absolute w-full h-full top-0 left-0">
-        <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-1/4 text-left">
+        <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-1/3 text-left">
           <div className="text-6xl primary-extra-bold leading-none tracking-tight">
             Lloyd’s Climate Catastrophe
           </div>
