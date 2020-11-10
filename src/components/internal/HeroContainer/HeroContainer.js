@@ -46,64 +46,65 @@ function HeroContainer() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-    <Carousel
-      showThumbs={false}
-      showArrows={false}
-      showStatus={false}
-      selectedItem={activeSlide}
-    >
-      {HeroBannerItems.map((data) => {
-        return (
-          <div className="relative flex h-800" key={Math.random()}>
-            <img
-              className="w-full object-cover opacity-75"
-              src={data.image}
-              alt={`social_1`}
-              style={{
-                backgroundImage: "linear-gradient(to bottom, #3c3c3c, #000000)",
-              }}
-            />
-            <div className="absolute w-full h-full">
-              <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-1/4 text-left">
-                <div className="text-6xl primary-extra-bold leading-none tracking-tight">
-                  {data.title}
-                </div>
-                <div className="primary-medium text-2xl my-4">{data.desc}</div>
-                <button className="w-48 py-3 bg-blue-900 primary-bold">
-                  Watch our video
-                </button>
-              </div>
-              <div className="absolute top-60 right-0 mr-16 flex">
-                <div
-                  className="w-12 h-12 bg-blue-900 px-2 py-2 cursor-pointer"
-                  onClick={() => {
-                    setActiveSlide(
-                      activeSlide === 0
-                        ? HeroBannerItems.length - 1
-                        : activeSlide - 1
-                    );
-                  }}
-                >
-                  <img src="/icons/left-play.png" alt="left-play" />
-                </div>
-                <div
-                  className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer"
-                  onClick={() => {
-                    setActiveSlide(
-                      HeroBannerItems.length - 1 === activeSlide
-                        ? 0
-                        : activeSlide + 1
-                    );
-                  }}
-                >
-                  <img src="/icons/right-play.png" alt="right-play" />
-                </div>
-              </div>
+    <div className="relative">
+      <Carousel
+        showThumbs={false}
+        showArrows={false}
+        showStatus={false}
+        selectedItem={activeSlide}
+      >
+        {HeroBannerItems.map((data) => {
+          return (
+            <div className="flex h-800" key={Math.random()}>
+              <img
+                className="w-full object-cover opacity-75"
+                src={data.image}
+                alt={`social_1`}
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #3c3c3c, #000000)",
+                }}
+              />
             </div>
+          );
+        })}
+      </Carousel>
+      <div className="absolute w-full h-full top-0 left-0">
+        <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-1/4 text-left">
+          <div className="text-6xl primary-extra-bold leading-none tracking-tight">
+            Lloyd’s Climate Catastrophe
           </div>
-        );
-      })}
-    </Carousel>
+          <div className="primary-medium text-2xl my-4">
+            Insuring fossil fuels & Profiting from climate destruction
+          </div>
+          <button className="w-48 py-3 bg-blue-900 primary-bold">
+            Watch our video
+          </button>
+        </div>
+        <div className="absolute top-60 right-0 mr-16 flex">
+          <div
+            className="w-12 h-12 bg-blue-900 px-2 py-2 cursor-pointer"
+            onClick={() => {
+              setActiveSlide(
+                activeSlide === 0 ? HeroBannerItems.length - 1 : activeSlide - 1
+              );
+            }}
+          >
+            <img src="/icons/left-play.png" alt="left-play" />
+          </div>
+          <div
+            className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer"
+            onClick={() => {
+              setActiveSlide(
+                HeroBannerItems.length - 1 === activeSlide ? 0 : activeSlide + 1
+              );
+            }}
+          >
+            <img src="/icons/right-play.png" alt="right-play" />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
