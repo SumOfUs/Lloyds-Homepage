@@ -23,7 +23,7 @@ module.exports = {
         800: 800,
       },
       maxWidth: {
-        700: 700,
+        600: 600,
         1440: 1440,
       },
       height: {
