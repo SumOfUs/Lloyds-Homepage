@@ -7,7 +7,9 @@ const Layout = ({ children, customMetadata = {} }) => {
     description:
       customMetadata.description ||
       "Insuring fossil fuels & Profiting from climate destruction",
-    image: customMetadata.image || "/icon/logo.png",
+    image:
+      customMetadata.image ||
+      "https://champaign-assets.s3-us-west-2.amazonaws.com/lloydshomepage.png",
     url: customMetadata.url || process.env.NOW_URL,
   };
 
