@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         gray: {
           ...colors.gray,
+          900: "#303030",
           1000: "#252525",
         },
         blue: {
@@ -20,6 +21,10 @@ module.exports = {
       },
       maxHeight: {
         800: 800,
+      },
+      maxWidth: {
+        700: 700,
+        1440: 1440,
       },
       height: {
         800: 800,
