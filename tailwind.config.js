@@ -11,8 +11,10 @@ module.exports = {
       colors: {
         gray: {
           ...colors.gray,
+          800: "#6c7e8e",
           900: "#303030",
           1000: "#252525",
+          1100: "#f8f8f8",
         },
         blue: {
           ...colors.blue,
@@ -34,6 +36,7 @@ module.exports = {
       inset: {
         40: "40%",
         60: "60%",
+        "-9": "-3rem",
       },
       screens: {
         "2xl": "1440px",

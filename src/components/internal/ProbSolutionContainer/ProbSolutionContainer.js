@@ -22,7 +22,7 @@ function ProbSolutionContainer() {
           </button>
         </div>
       </div>
-      <div className="w-1/2 bg-gray-100 p-16">
+      <div className="w-1/2 bg-gray-1100 p-16">
         <div className="max-w-600 mx-auto">
           <div className="primary-black text-6xl">The Solution</div>
           <div className="primary-extra-bold text-5xl mt-16 mb-6 leading-tight">

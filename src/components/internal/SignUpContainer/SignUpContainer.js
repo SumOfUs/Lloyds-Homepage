@@ -7,7 +7,7 @@ function SignUpContainer() {
         <div className="text-white text-6xl primary-black tracking-normal max-w-lg">
           Sign up for the Newsletter
         </div>
-        <div className="text-white text-6xl primary-black tracking-normal max-w-lg">
+        <div className="text-white text-6xl primary-black tracking-normal max-w-lg hidden">
           Sign up for the Newsletter
         </div>
       </div>

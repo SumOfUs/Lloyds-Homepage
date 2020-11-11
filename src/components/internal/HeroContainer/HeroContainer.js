@@ -35,11 +35,12 @@ function HeroContainer() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-    <div className="relative">
+    <div className="relative hero-section">
       <Carousel
         showThumbs={false}
         showArrows={false}
         showStatus={false}
+        onChange={(index) => setActiveSlide(index)}
         selectedItem={activeSlide}
       >
         {HeroBannerItems.map((data) => {
