@@ -17,12 +17,14 @@ module.exports = {
         blue: {
           ...colors.blue,
           900: "#0f62fe",
+          1000: "#015dff",
         },
       },
       maxHeight: {
         800: 800,
       },
       maxWidth: {
+        400: 400,
         600: 600,
         1440: 1440,
       },
@@ -32,6 +34,9 @@ module.exports = {
       inset: {
         40: "40%",
         60: "60%",
+      },
+      screens: {
+        "2xl": "1440px",
       },
     },
   },

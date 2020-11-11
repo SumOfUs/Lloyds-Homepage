@@ -26,7 +26,7 @@ function ProbSolutionContainer() {
         <div className="max-w-600 mx-auto">
           <div className="primary-black text-6xl">The Solution</div>
           <div className="primary-extra-bold text-5xl mt-16 mb-6 leading-tight">
-            Our Solutions is to the educate people and Llyods employees
+            To educate people and Llyods employees
           </div>
           <div className="primary-medium text-2xl text-gray-900 leading-tight">
             Lorem Ipsum is simply dummy text of the printing and typesetting

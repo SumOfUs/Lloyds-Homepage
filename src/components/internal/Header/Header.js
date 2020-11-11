@@ -5,7 +5,7 @@ function Header() {
     <div className="h-100 bg-white">
       <div className="w-full px-6 pb-0 lg:px-12 flex flex-col z-20 relative header-container">
         <div className="text-black text-3xl">
-          <img src="/icons/logo.png" alt="lloyds" width={120} />
+          <img src="/icons/logo.png" alt="lloyds" width={150} />
         </div>
         <div className="flex flex-row my-3 mb-0">
           <div className="w-48 py-4 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-lg font-bold flex justify-center tracking-wider items-center">
