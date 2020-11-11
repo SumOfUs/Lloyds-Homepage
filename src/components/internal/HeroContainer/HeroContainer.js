@@ -6,39 +6,28 @@ import { Carousel } from "react-responsive-carousel";
 const HeroBannerItems = [
   {
     image:
-      "https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2706&q=80",
-    title: "Lloyd’s Climate Catastrophe",
-    desc: "Insuring fossil fuels & Profiting from climate destruction",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
-    title: "Sdylol Calemit Hacetaprots",
-    desc: "Uigsrnin siofls esflu igotpinrf omfr aiceltm rctstdoieun",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1551727041-5b347d65b633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
-    title: "Lloyd’s Climate Catastrophe",
-    desc: "Insuring fossil fuels & Profiting from climate destruction",
-  },
-  {
-    image:
       "https://images.unsplash.com/uploads/1411160110892ab555b6f/80b0d25e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
-    title: "Sdylol Calemit Hacetaprots",
-    desc: "Uigsrnin siofls esflu igotpinrf omfr aiceltm rctstdoieun",
   },
   {
     image:
       "https://images.unsplash.com/photo-1505428160878-8e349f4d301c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80",
-    title: "Lloyd’s Climate Catastrophe",
-    desc: "Insuring fossil fuels & Profiting from climate destruction",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1461088945293-0c17689e48ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80",
-    title: "Sdylol Calemit Hacetaprots",
-    desc: "Uigsrnin siofls esflu igotpinrf omfr aiceltm rctstdoieun",
+      "https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2706&q=80",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1551727041-5b347d65b633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+  },
+
+  {
+    image:
+      "https://images.unsplash.com/photo-1578891086254-e790dbcfd6d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
   },
 ];
 
