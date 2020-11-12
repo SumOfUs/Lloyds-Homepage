@@ -8,7 +8,7 @@ function SignUpContainer() {
 
   function saveEmail() {
     if (email && regex.test(email.toLowerCase())) {
-      setMsg("Saved successfully");
+      setMsg("Saved successfully !!");
     } else {
       setMsg("Please enter a valid email address");
     }
