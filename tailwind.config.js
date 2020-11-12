@@ -20,6 +20,11 @@ module.exports = {
           ...colors.blue,
           900: "#0f62fe",
           1000: "#015dff",
+          1200: "#6fe6ff",
+        },
+        yellow: {
+          ...colors.yellow,
+          lemon: "#fff929ff",
         },
       },
       maxHeight: {
@@ -43,6 +48,9 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    backgroundColor: ["responsive", "hover", "focus", "active", "disabled"],
+    opacity: ["hover"],
+  },
   plugins: [],
 };
