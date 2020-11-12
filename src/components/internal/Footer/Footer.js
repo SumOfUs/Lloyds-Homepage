@@ -1,6 +1,7 @@
 import React from "react";
 
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <div className="bg-black pt-16 pb-12 px-20 w-full text-white ">
       <div className="max-w-1440 2xl:mx-auto w-full flex flex-col items-center">
@@ -66,7 +67,8 @@ function Footer() {
           </div>
         </div>
         <div className="pt-16 text-white primary-medium tracking-wide">
-          © 2020 Against Lloyds · All Rights Reserved · Terms · Site by F22 Labs
+          © {year} Against Lloyds · All Rights Reserved · Terms · Site by F22
+          Labs
         </div>
       </div>
     </div>
