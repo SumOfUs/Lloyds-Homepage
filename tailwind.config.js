@@ -42,6 +42,7 @@ module.exports = {
         40: "40%",
         60: "60%",
         "-9": "-3rem",
+        1: "1rem",
       },
       screens: {
         "2xl": "1440px",
