@@ -7,7 +7,12 @@ function Footer() {
       <div className="max-w-1440 2xl:mx-auto w-full flex flex-col items-center">
         <div className="flex flex-row justify-between w-full">
           <div className="flex flex-col w-1/5">
-            <div className="primary-extra-bold text-2xl ">Against Lloyds</div>
+            <a
+              href="/"
+              className="primary-extra-bold text-2xl cursor-pointer hover:text-blue-1200"
+            >
+              Against Lloyds
+            </a>
             <div className="mt-8 mb-6 primary-medium tracking-wider leading-6">
               Wheal Kitty Workshops, St Agnes, Cornwall, TR5 0RD
             </div>
@@ -17,18 +22,36 @@ function Footer() {
           </div>
 
           <div className="flex flex-col ">
-            <div className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200">
+            <a
+              href="/problem"
+              className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200"
+            >
               Problem
-            </div>
-            <div className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200">
+            </a>
+            <a
+              href="/solution"
+              className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200"
+            >
               Solution
-            </div>
-            <div className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200">
+            </a>
+            <a
+              href="/members"
+              className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200"
+            >
+              Members
+            </a>
+            <a
+              href="/latest"
+              className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200"
+            >
               Latest
-            </div>
-            <div className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200">
+            </a>
+            <a
+              href="/act"
+              className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200"
+            >
               Act
-            </div>
+            </a>
           </div>
 
           <div className="flex flex-col w-1/4">

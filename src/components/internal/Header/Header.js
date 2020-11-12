@@ -4,25 +4,40 @@ function Header() {
   return (
     <div className="h-100 bg-white">
       <div className="w-full px-6 pb-0 lg:px-12 flex flex-col z-20 relative header-container">
-        <div className="text-black text-3xl">
+        <a className="text-black text-3xl" href="/">
           <img src="/icons/logo.png" alt="lloyds" width={150} />
-        </div>
+        </a>
         <div className="flex flex-row my-3 mb-0">
-          <div className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-yellow-lemon">
+          <a
+            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            href="/problem"
+          >
             Problem
-          </div>
-          <div className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-yellow-lemon">
+          </a>
+          <a
+            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            href="/solution"
+          >
             Solution
-          </div>
-          <div className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-yellow-lemon">
+          </a>
+          <a
+            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            href="/members"
+          >
             Members
-          </div>
-          <div className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-yellow-lemon">
+          </a>
+          <a
+            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            href="/latest"
+          >
             Latest
-          </div>
-          <div className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-yellow-lemon">
+          </a>
+          <a
+            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            href="/act"
+          >
             Act
-          </div>
+          </a>
         </div>
       </div>
     </div>
