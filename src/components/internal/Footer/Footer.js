@@ -55,7 +55,9 @@ function Footer() {
           </div>
 
           <div className="flex flex-col w-1/4">
-            <div className="primary-extra-bold text-2xl">Follow us on</div>
+            <div className="primary-black text-2xl p-4 bg-blue-900 flex justify-center">
+              Follow us on
+            </div>
             <div className="flex flex-row justify-between mt-8">
               <img
                 src="/icons/twitter.png"
