@@ -54,8 +54,8 @@ function Footer() {
             </a>
           </div>
 
-          <div className="flex flex-col w-1/4">
-            <div className="primary-black text-2xl p-4 bg-blue-900 flex justify-center">
+          <div className="flex flex-col w-1/6">
+            <div className="primary-black text-3xl p-4 bg-blue-900 flex justify-center tracking-wider leading-6">
               Follow us on
             </div>
             <div className="flex flex-row justify-between mt-8">
