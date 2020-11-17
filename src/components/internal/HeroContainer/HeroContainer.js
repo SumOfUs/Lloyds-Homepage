@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -33,6 +33,22 @@ const HeroBannerItems = [
 
 function HeroContainer() {
   const [activeSlide, setActiveSlide] = useState(0);
+  const wordChangerArr = ["coal", "tar sands", "oil & gas"];
+  const [index, setIndex] = useState(0);
+  const [time, setTime] = useState(new Date().getSeconds());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date().getSeconds());
+    }, 5000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  useEffect(() => {
+    setIndex(index < 2 ? index + 1 : 0);
+  }, [time]);
 
   return (
     <div className="relative hero-section">
@@ -60,16 +76,21 @@ function HeroContainer() {
         })}
       </Carousel>
       <div className="absolute w-full h-full top-0 left-0">
-        <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-1/3 text-left">
+        <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-2/5 text-left">
           <div className="text-6xl primary-extra-bold leading-none tracking-tight">
             Lloyd’s Climate Catastrophe
           </div>
           <div className="primary-medium text-2xl my-4">
-            Insuring fossil fuels & Profiting from climate destruction
+            <span>Insuring&nbsp;</span>
+            <span className="font-bold">{wordChangerArr[index]}</span>
+            <span>&nbsp;& Profiting from climate destruction</span>
           </div>
-          <button className="w-48 py-3 bg-blue-900 primary-bold text-xl">
-            Watch our video
-          </button>
+          <a
+            href="/problem"
+            className="w-48 py-3 bg-blue-900 primary-bold text-xl flex justify-center"
+          >
+            Learn More
+          </a>
         </div>
         <div className="absolute top-60 right-0 mr-16 flex">
           <div

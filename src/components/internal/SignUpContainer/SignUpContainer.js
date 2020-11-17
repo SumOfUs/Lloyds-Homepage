@@ -15,12 +15,12 @@ function SignUpContainer() {
   }
 
   return (
-    <div className="bg-blue-1000 p-20 ">
-      <div className="flex flex-row justify-between max-w-1440 2xl:mx-auto">
-        <div className="text-white text-6xl primary-black tracking-normal max-w-lg">
+    <div className="bg-blue-1000 lg:p-20 p-8">
+      <div className="flex lg:flex-row flex-col justify-between max-w-1440 2xl:mx-auto">
+        <div className="text-white lg:text-6xl lg:mb-0 mb-16 text-4xl primary-black tracking-normal max-w-lg">
           Sign up for the Newsletter
         </div>
-        <div className="text-white text-6xl primary-black tracking-normal w-1/3 flex flex-col justify-center">
+        <div className="text-white text-6xl primary-black tracking-normal lg:w-1/3 flex flex-col justify-center">
           <div className="primary-extra-bold text-lg">Email</div>
           <div className="relative h-12 flex w-3/4">
             <input

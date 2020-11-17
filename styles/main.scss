@@ -61,3 +61,31 @@
     }
   }
  
+
+  // @keyframes changeLetter {
+  //   0% {
+  //     content: "coal";
+  //   }
+  //   25% {
+  //     color: white;
+  //   }
+  //   50% {
+  //     content: "tar sands";
+  //   }
+  //   75% {
+  //     color: white;
+  //   }
+  //   100% {
+  //     content: "oil & gas";
+  //   }
+  // }
+  
+  // .word-changer{
+  //   &:after {
+  //     animation: changeLetter 5s linear infinite alternate;
+  //     display: inline-block;
+  //     content: "coal";
+  //     font-weight: 600;
+  //   }
+  // }
+  

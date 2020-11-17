@@ -41,15 +41,20 @@ function ActNowContainer() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-    <div className="mt-20 mb-40 mx-16 max-w-1440 2xl:mx-auto act-now-section">
+    <div className="lg:mt-20 lg:mb-40 lg:mx-16 m-4 max-w-1440 2xl:mx-auto act-now-section">
       <div className="primary-black text-black text-6xl">Act now</div>
-      <div className="flex flex-row justify-between items-center">
-        <div className="flex flex-col w-2/5">
-          <div className="primary-extra-bold text-4xl my-3">
-            Tweet using our &nbsp;
-            <span className="text-blue-900 primary-extra-bold">#hashtag</span>
+      <div className="flex lg:flex-row flex-col justify-between items-center">
+        <div className="flex flex-col lg:w-2/5">
+          <div className="lg:text-4xl text-3xl my-3">
+            <span className="primary-extra-bold">Use&nbsp;</span>
+            <span className="text-blue-900 primary-extra-bold">
+              #LloydsInsureOurFuture
+            </span>
+            <span className="primary-extra-bold">
+              &nbsp;on Twitter and join 1000’s of campaigners
+            </span>
           </div>
-          <div className="primary-medium leading-7 text-lg tracking-wide w-10/12">
+          <div className="primary-medium leading-7 text-lg tracking-wide lg:w-10/12">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s,
@@ -64,14 +69,16 @@ function ActNowContainer() {
             with desktop publishing software like Aldus PageMaker including
             versions of Lorem Ipsum.
           </div>
-          <button className="w-4/6 mt-12 px-16 py-6 bg-blue-900 text-white text-2xl primary-bold">
-            Tweet #stopdisinfo
+          <button className="lg:w-5/6 mt-12 px-16 py-6 bg-blue-900 text-white text-2xl primary-bold">
+            Tweet #LloydsInsureOurFuture
           </button>
         </div>
-        <div className="flex flex-col w-3/5 relative">
-          <div className="px-20 py-12  bg-gray-1100 flex flex-row items-center justify-between">
-            <div className="flex flex-col w-4/5">
-              <div className="primary-extra-bold text-4xl">Take action now</div>
+        <div className="flex flex-col lg:w-3/5 w-full relative lg:mt-0 mt-12">
+          <div className="lg:px-20 lg:py-12 lg:p-6 bg-gray-1100 flex flex-row items-center justify-between">
+            <div className="flex flex-col lg:w-4/5">
+              <div className="primary-extra-bold text-4xl px-4">
+                Take action now
+              </div>
               <Carousel
                 showThumbs={false}
                 showArrows={false}
@@ -81,7 +88,10 @@ function ActNowContainer() {
               >
                 {ActNowItems.map((data) => {
                   return (
-                    <div className="bg-white my-10 p-6" key={Math.random()}>
+                    <div
+                      className="lg:bg-white bg-gray-1100 my-10 lg:p-6 p-3"
+                      key={Math.random()}
+                    >
                       <img src={data.image} alt="petition 1" />
                       <div className="mt-4 tracking-wide primary-extra-bold text-xl text-gray-800 text-left">
                         {data.category}
@@ -103,7 +113,7 @@ function ActNowContainer() {
               </Carousel>
             </div>
             <div
-              className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer flex items-center justify-center"
+              className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer lg:flex items-center justify-center hidden"
               onClick={() => {
                 setActiveSlide(
                   ActNowItems.length - 1 === activeSlide ? 0 : activeSlide + 1
@@ -113,9 +123,12 @@ function ActNowContainer() {
               <img src="/icons/right-play.png" alt="right-play" />
             </div>
           </div>
-          <button className="w-2/5 mt-12 px-16 py-6 bg-blue-900 text-white text-2xl primary-bold absolute -bottom-9 -right-9">
+          <a
+            href="/act"
+            className="lg:w-2/5 w-4/5 mt-12 px-16 py-6 bg-blue-900 text-white text-2xl primary-bold lg:absolute -bottom-9 -right-9"
+          >
             View all Petitions
-          </button>
+          </a>
         </div>
       </div>
     </div>

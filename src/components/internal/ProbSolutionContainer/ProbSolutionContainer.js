@@ -2,43 +2,51 @@ import React from "react";
 
 function ProbSolutionContainer() {
   return (
-    <div className="flex flex-row justify-around w-full">
-      <div className="w-1/2 bg-white p-16">
-        <div className="max-w-600 mx-auto">
+    <div className="flex lg:flex-row justify-around w-full flex-col">
+      <div className="lg:w-1/2 bg-white lg:p-16 p-8">
+        <div className="max-w-600 mx-auto ">
           <div className="primary-black text-6xl">The Problem</div>
           <div className="primary-extra-bold text-5xl mt-16 mb-6 leading-tight">
-            Spreading risk to create a unstainable world
+            Insuring and investing in climate destruction
           </div>
           <div className="primary-medium text-2xl text-gray-900 leading-tight">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            Lloyd’s of London and its members (re)insure and invest in some of
+            the world’s worst fossil fuel projects, including coal mines, tar
+            sands pipelines and new oil & gas exploration. Once built, this
+            infrastructure produces substantial amounts of CO2 emissions,
+            escalating the climate crisis and harming public health.&nbsp;
+            <span className="font-bold">
+              Lloyd’s insures risks that destroy the planet.
+            </span>
           </div>
-          <button className="w-64 py-4 mt-16 text-xl bg-blue-900 primary-bold text-white">
-            Lloyd’s Dirty Project
-          </button>
+          <a
+            href="/problem"
+            className="lg:w-2/3 py-4 mt-16 text-xl bg-blue-900 primary-bold text-white flex justify-center"
+          >
+            How Lloyd’s insures climate destruction
+          </a>
         </div>
       </div>
-      <div className="w-1/2 bg-gray-1100 p-16">
+      <div className="lg:w-1/2 bg-gray-1100 lg:p-16 p-8">
         <div className="max-w-600 mx-auto">
           <div className="primary-black text-6xl">The Solution</div>
           <div className="primary-extra-bold text-5xl mt-16 mb-6 leading-tight">
-            To educate people and Llyods employees
+            Stop insuring and investing in coal, tar sands, oil and gas.
           </div>
           <div className="primary-medium text-2xl text-gray-900 leading-tight">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            Lloyd’s and its members must adopt policies that exclude or
+            significantly restrict the insurance and reinsurance of coal, tar
+            sands and new oil and gas projects, and divest from fossil fuels.
+            Other insurers, including the parent companies of a number of
+            leading Lloyd’s membershave already taken this action. There is no
+            good excuse for Lloyd’s and its members not to act now.
           </div>
-          <button className="w-64 py-4 mt-16 text-xl bg-blue-900 primary-bold text-white">
-            See how we solve this
-          </button>
+          <a
+            href="/solution"
+            className="w-64 py-4 mt-16 text-xl bg-blue-900 primary-bold text-white flex justify-center"
+          >
+            How we solve this
+          </a>
         </div>
       </div>
     </div>

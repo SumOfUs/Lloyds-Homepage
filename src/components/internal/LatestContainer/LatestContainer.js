@@ -2,11 +2,11 @@ import React from "react";
 
 function LatestContainer() {
   return (
-    <div className="w-auto my-24 mx-12 max-w-1440 2xl:mx-auto">
+    <div className="w-auto lg:my-24 lg:mx-12 m-8 max-w-1440 2xl:mx-auto">
       <div className="primary-black text-6xl text-black tracking-tight mb-24">
         The Latest
       </div>
-      <div className="flex flex-row justify-between">
+      <div className="flex lg:flex-row flex-col justify-between">
         <div className="flex flex-col max-w-400">
           <img
             src="/icons/latest1.png"
@@ -14,7 +14,7 @@ function LatestContainer() {
             alt="Latest 1"
           />
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
-            Blog
+            Press release
           </div>
           <div className="text-black primary-extra-bold text-3xl tracking-wide mb-16">
             Coca Cola tops the list of emitting CO2
@@ -36,7 +36,7 @@ function LatestContainer() {
             alt="Latest 1"
           />
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
-            Pr
+            Report
           </div>
           <div className="text-black primary-extra-bold text-3xl tracking-wide mb-16">
             The adani coal mine emits 120M tonnes of CO2
@@ -58,7 +58,7 @@ function LatestContainer() {
             alt="Latest 1"
           />
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
-            Report
+            Article
           </div>
           <div className="text-black primary-extra-bold text-3xl tracking-wide mb-16">
             Mp Calls to End Sewage pollution
