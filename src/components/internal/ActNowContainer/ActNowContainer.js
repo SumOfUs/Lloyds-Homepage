@@ -75,7 +75,7 @@ function ActNowContainer() {
         </div>
         <div className="flex flex-col lg:w-3/5 w-full relative lg:mt-0 mt-12">
           <div className="lg:px-20 lg:py-12 lg:p-6 bg-gray-1100 flex flex-row items-center justify-between">
-            <div className="flex flex-col lg:w-4/5">
+            <div className="flex flex-col lg:w-4/5 w-full">
               <div className="primary-extra-bold text-4xl px-4">
                 Take action now
               </div>
