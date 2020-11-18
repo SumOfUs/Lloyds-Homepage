@@ -93,8 +93,7 @@ function Footer() {
           </div>
         </div>
         <div className="pt-16 text-white primary-medium tracking-wide">
-          © {year} Against Lloyds · All Rights Reserved · Terms · Site by F22
-          Labs
+          © {year} Insure our future · All Rights Reserved ·
         </div>
       </div>
     </div>
