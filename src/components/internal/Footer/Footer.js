@@ -8,15 +8,16 @@ function Footer() {
         <div className="flex flex-row justify-between w-full">
           <div className="flex flex-col w-1/5">
             <a
-              href="/"
+              href="https://insureourfuture.co/what-is-lloyds-of-london-and-how-does-it-help-fuel-the-climate-crisis/"
+              target="_blank"
               className="primary-extra-bold text-2xl cursor-pointer hover:text-blue-1200"
             >
-              Against Lloyds
+              Insure Our Future
             </a>
-            <div className="mt-8 mb-6 primary-medium tracking-wider leading-6">
+            <div className="mt-8 mb-6 primary-medium tracking-wider leading-6 hidden">
               Wheal Kitty Workshops, St Agnes, Cornwall, TR5 0RD
             </div>
-            <div className="primary-medium tracking-wider leading-6">
+            <div className="primary-medium tracking-wider leading-6 hidden">
               Tel: 123 1239 1210
             </div>
           </div>

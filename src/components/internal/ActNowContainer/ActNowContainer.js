@@ -11,30 +11,30 @@ const ActNowItems = [
     org: "Change org",
     published: "8 days ago",
   },
-  {
-    image:
-      "https://images.unsplash.com/photo-1569060368645-4ab30c8d8b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
-    title: "The adani coal mine emits 120M tonnes of CO2",
-    category: "POLLUTION",
-    org: "Sumofus org",
-    published: "2 hours ago",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
-    title: "Coca Cola tops the list of emitting more CO2",
-    category: "DEGRRADATION",
-    org: "360 degrees",
-    published: "4 months ago",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1553034132-0234e7dd7a57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
-    title: "The adani coal mine emits 120M tonnes of CO2",
-    category: "EMISSION",
-    org: "Avaaz org",
-    published: "a year ago",
-  },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1569060368645-4ab30c8d8b0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+  //   title: "The adani coal mine emits 120M tonnes of CO2",
+  //   category: "POLLUTION",
+  //   org: "Sumofus org",
+  //   published: "2 hours ago",
+  // },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+  //   title: "Coca Cola tops the list of emitting more CO2",
+  //   category: "DEGRRADATION",
+  //   org: "360 degrees",
+  //   published: "4 months ago",
+  // },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1553034132-0234e7dd7a57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+  //   title: "The adani coal mine emits 120M tonnes of CO2",
+  //   category: "EMISSION",
+  //   org: "Avaaz org",
+  //   published: "a year ago",
+  // },
 ];
 
 function ActNowContainer() {
@@ -55,19 +55,33 @@ function ActNowContainer() {
             </span>
           </div>
           <div className="primary-medium leading-7 text-lg tracking-wide lg:w-10/12">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+            <div className="primary-medium rounded-l border-solid border-0 border-l-8 border-blue-900 pl-2">
+              Insuring the worst fossil fuel projects undermines the global
+              effort to address the climate crisis.&nbsp;
+              <span className="primary-medium text-blue-900">
+                #LloydsInsureOurFuture
+              </span>
+            </div>
             <br />
+            <div className="primary-medium rounded-l border-solid border-0 border-l-8 border-transparent pl-2">
+              600 people on Zoom tonight putting digital pressure on companies
+              to stop insuring Adani’s climate wrecking coal&nbsp;
+              <span className="primary-medium text-blue-900">
+                #LloydsInsureOurFuture
+              </span>
+              &nbsp;not Adani’s coal, head here for amazingly creative digital
+              actions you can do now to&nbsp;
+              <span className="primary-medium text-blue-900">#StopAdani</span>
+            </div>
             <br />
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            <div className="primary-medium rounded-l border-solid border-0 border-l-8 border-blue-900 pl-2">
+              One of the effective actions that came out of the entertaining
+              Lloyd's Rally tonight! NO INSURANCE for the ADANI COAL MINE!
+              &nbsp;
+              <span className="primary-medium text-blue-900">
+                #LloydsInsureOurFuture
+              </span>
+            </div>
           </div>
           <button className="lg:w-5/6 mt-12 px-16 py-6 bg-blue-900 text-white text-2xl primary-bold">
             Tweet #LloydsInsureOurFuture
@@ -113,7 +127,7 @@ function ActNowContainer() {
               </Carousel>
             </div>
             <div
-              className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer lg:flex items-center justify-center hidden"
+              className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer flex items-center justify-center hidden"
               onClick={() => {
                 setActiveSlide(
                   ActNowItems.length - 1 === activeSlide ? 0 : activeSlide + 1
