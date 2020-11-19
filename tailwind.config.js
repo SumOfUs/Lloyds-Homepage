@@ -38,6 +38,9 @@ module.exports = {
       height: {
         800: 800,
       },
+      width: {
+        400: 400,
+      },
       inset: {
         40: "40%",
         60: "60%",

@@ -43,17 +43,17 @@ function ActNowContainer() {
   return (
     <div className="lg:mt-20 lg:mb-40 lg:mx-16 m-4 max-w-1440 2xl:mx-auto act-now-section">
       <div className="primary-black text-black text-6xl">Act now</div>
-      <div className="flex lg:flex-row flex-col justify-between items-center">
+      <div className="lg:text-4xl text-3xl my-3 mb-8">
+        <span className="primary-extra-bold">Use&nbsp;</span>
+        <span className="text-blue-900 primary-extra-bold">
+          #LloydsInsureOurFuture
+        </span>
+        <span className="primary-extra-bold">
+          &nbsp;on Twitter and join 1000’s of campaigners
+        </span>
+      </div>
+      <div className="flex lg:flex-row flex-col justify-between items-baseline">
         <div className="flex flex-col lg:w-2/5">
-          <div className="lg:text-4xl text-3xl my-3">
-            <span className="primary-extra-bold">Use&nbsp;</span>
-            <span className="text-blue-900 primary-extra-bold">
-              #LloydsInsureOurFuture
-            </span>
-            <span className="primary-extra-bold">
-              &nbsp;on Twitter and join 1000’s of campaigners
-            </span>
-          </div>
           <div className="primary-medium leading-7 text-lg tracking-wide lg:w-10/12">
             <div className="primary-medium rounded-l border-solid border-0 border-l-8 border-blue-900 pl-2">
               Insuring the worst fossil fuel projects undermines the global

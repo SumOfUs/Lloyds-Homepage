@@ -7,7 +7,7 @@ function LatestContainer() {
         The Latest
       </div>
       <div className="flex lg:flex-row flex-col justify-between">
-        <div className="flex flex-col max-w-400">
+        <div className="flex flex-col w-400 mr-6">
           <img
             src="/icons/latest1.png"
             srcSet="/icons/latest1@2x.png 2x, /icons/latest1@3x.png 3x"
@@ -29,7 +29,7 @@ function LatestContainer() {
             />
           </div>
         </div>
-        <div className="flex flex-col max-w-400">
+        <div className="flex flex-col w-400 mr-6">
           <img
             src="/icons/latest2.png"
             srcSet="/icons/latest2@2x.png 2x, /icons/latest2@3x.png 3x"
@@ -51,7 +51,7 @@ function LatestContainer() {
             />
           </div>
         </div>
-        <div className="flex flex-col max-w-400">
+        <div className="flex flex-col w-400">
           <img
             src="/icons/latest3.png"
             srcSet="/icons/latest3@2x.png 2x, /icons/latest3@3x.png 3x"
