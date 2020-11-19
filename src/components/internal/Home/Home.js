@@ -18,7 +18,7 @@ const Home = () => {
       <ProudBannerContainer />
       <LatestContainer />
       <SignUpContainer />
-      <ActNowContainer />
+      {/* <ActNowContainer /> */}
       <Footer />
     </div>
   );

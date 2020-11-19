@@ -3,10 +3,10 @@ import React from "react";
 function ProbSolutionContainer() {
   return (
     <div className="flex lg:flex-row justify-around w-full flex-col">
-      <div className="lg:w-1/2 bg-white lg:p-16 p-8">
+      <div className="lg:w-1/2 bg-white lg:px-16 py-8 p-8 relative">
         <div className="max-w-600 mx-auto ">
           <div className="primary-black text-6xl">The Problem</div>
-          <div className="primary-extra-bold text-5xl mt-16 mb-6 leading-tight">
+          <div className="primary-extra-bold text-5xl mb-6 leading-tight">
             Insuring and investing in climate destruction
           </div>
           <div className="primary-medium text-2xl text-gray-900 leading-tight">
@@ -21,17 +21,17 @@ function ProbSolutionContainer() {
           </div>
           <a
             href="/problem"
-            className="lg:w-2/3 py-4 mt-16 text-xl bg-blue-900 primary-bold text-white flex justify-center"
+            className="xl:w-2/3 lg:w-full md:w-2/3 py-4 mt-8 text-xl bg-blue-900 primary-bold text-white flex justify-center"
           >
             How Lloyd’s insures climate destruction
           </a>
         </div>
       </div>
-      <div className="lg:w-1/2 bg-gray-1100 lg:p-16 p-8">
+      <div className="lg:w-1/2 bg-gray-1100 lg:px-16 py-8 p-8 relative">
         <div className="max-w-600 mx-auto">
           <div className="primary-black text-6xl">The Solution</div>
-          <div className="primary-extra-bold text-5xl mt-16 mb-6 leading-tight">
-            Stop insuring and investing in coal, tar sands, oil and gas.
+          <div className="primary-extra-bold text-5xl mb-6 leading-tight tracking-tight">
+            Stop insuring and investing in coal, tar sands, oil & gas.
           </div>
           <div className="primary-medium text-2xl text-gray-900 leading-tight">
             Lloyd’s and its members must adopt policies that exclude or
@@ -43,7 +43,7 @@ function ProbSolutionContainer() {
           </div>
           <a
             href="/solution"
-            className="w-64 py-4 mt-16 text-xl bg-blue-900 primary-bold text-white flex justify-center"
+            className="w-64 py-4 mt-8 text-xl bg-blue-900 primary-bold text-white flex justify-center"
           >
             How we solve this
           </a>

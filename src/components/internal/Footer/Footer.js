@@ -5,8 +5,8 @@ function Footer() {
   return (
     <div className="bg-black lg:pt-16 lg:pb-12 lg:px-20 px-6 py-8 w-full text-white ">
       <div className="max-w-1440 2xl:mx-auto w-full flex flex-col items-center">
-        <div className="flex flex-row justify-between w-full">
-          <div className="flex flex-col w-1/5">
+        <div className="flex sm:flex-row flex-col justify-between w-full">
+          <div className="flex flex-col sm:w-1/5 w-full">
             <a
               href="https://insureourfuture.co/what-is-lloyds-of-london-and-how-does-it-help-fuel-the-climate-crisis/"
               target="_blank"
@@ -22,10 +22,10 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col ">
+          <div className="flex md:flex-col flex-row sm:my-0 my-4 justify-between">
             <a
               href="/problem"
-              className="primary-extra-bold tracking-wider leading-6 mb-6 cursor-pointer hover:text-blue-1200"
+              className="primary-extra-bold tracking-wider leading-6 md:mb-6 cursor-pointer hover:text-blue-1200"
             >
               Problem
             </a>
@@ -55,7 +55,7 @@ function Footer() {
             </a>
           </div>
 
-          <div className="flex flex-col w-1/6">
+          <div className="flex flex-col sm:w-1/6 md:w-1/4 w-full">
             <div className="primary-black 2xl:text-3xl xl:text-2xl text-xl p-4 bg-blue-900 flex justify-center tracking-wider leading-6">
               Follow us on
             </div>

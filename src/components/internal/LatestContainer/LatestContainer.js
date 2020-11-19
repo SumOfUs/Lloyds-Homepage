@@ -2,8 +2,8 @@ import React from "react";
 
 function LatestContainer() {
   return (
-    <div className="w-auto lg:my-24 lg:mx-12 m-8 max-w-1440 2xl:mx-auto">
-      <div className="primary-black text-6xl text-black tracking-tight mb-24">
+    <div className="w-auto lg:mx-12 md:m-8 my-8 mx-3 max-w-1440 2xl:mx-auto md:px-12">
+      <div className="primary-black text-6xl text-black tracking-tight mb-8">
         The Latest
       </div>
       <div className="flex lg:flex-row flex-col justify-between">
@@ -16,7 +16,7 @@ function LatestContainer() {
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
             Press release
           </div>
-          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-16">
+          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-8 xl:min-h-0 lg:min-h-135 min-h-0">
             Coca Cola tops the list of emitting CO2
           </div>
           <div className="text-blue-900 text-2xl tracking-wide mb-16 cursor-pointer flex-row flex items-center">
@@ -38,7 +38,7 @@ function LatestContainer() {
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
             Report
           </div>
-          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-16">
+          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-8 xl:min-h-0 lg:min-h-135 min-h-0">
             The adani coal mine emits 120M tonnes of CO2
           </div>
           <div className="text-blue-900 text-2xl tracking-wide mb-16 cursor-pointer flex-row flex items-center">
@@ -60,7 +60,7 @@ function LatestContainer() {
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
             Article
           </div>
-          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-16">
+          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-8 xl:min-h-0 lg:min-h-135 min-h-0">
             Mp Calls to End Sewage pollution
           </div>
           <div className="text-blue-900 text-2xl tracking-wide mb-16 cursor-pointer flex-row flex items-center">

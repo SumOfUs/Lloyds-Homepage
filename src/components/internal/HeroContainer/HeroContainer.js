@@ -61,7 +61,7 @@ function HeroContainer() {
       >
         {HeroBannerItems.map((data) => {
           return (
-            <div className="flex h-800" key={Math.random()}>
+            <div className="flex h-500" key={Math.random()}>
               <img
                 className="w-full object-cover opacity-75"
                 src={data.image}
@@ -76,7 +76,7 @@ function HeroContainer() {
         })}
       </Carousel>
       <div className="absolute w-full h-full top-0 left-0">
-        <div className="absolute top-40 left-0 text-white ml-16 flex flex-col justify-start items-start w-2/5 text-left">
+        <div className="absolute top-30 left-0 text-white md:ml-16 ml-8 flex flex-col justify-start items-start lg:w-2/5 text-left">
           <div className="text-6xl primary-extra-bold leading-none tracking-tight">
             Lloyd’s Climate Catastrophe
           </div>

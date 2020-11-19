@@ -15,14 +15,14 @@ function SignUpContainer() {
   }
 
   return (
-    <div className="bg-blue-1000 lg:p-20 p-8">
+    <div className="bg-blue-1000 py-8 px-20">
       <div className="flex lg:flex-row flex-col justify-between max-w-1440 2xl:mx-auto">
-        <div className="text-white lg:text-6xl lg:mb-0 mb-16 text-4xl primary-black tracking-normal max-w-lg">
+        <div className="text-white lg:text-5xl lg:mb-0 mb-8 text-4xl primary-black tracking-normal max-w-md leading-tight">
           Sign up for the Newsletter
         </div>
-        <div className="text-white text-6xl primary-black tracking-normal lg:w-1/3 flex flex-col justify-center">
+        <div className="text-white text-6xl primary-black tracking-normal lg:w-1/2 flex flex-col justify-center">
           <div className="primary-extra-bold text-lg">Email</div>
-          <div className="relative h-12 flex w-3/4">
+          <div className="relative h-12 flex w-3/4 max-w-sm">
             <input
               id="email"
               type="email"
@@ -46,7 +46,7 @@ function SignUpContainer() {
               onClick={() => saveEmail()}
             />
           </div>
-          <div className="text-xl primary-medium h-8">
+          <div className="text-xl primary-medium h-4">
             {msg && msg.length ? msg : null}
           </div>
         </div>
