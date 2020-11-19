@@ -56,7 +56,7 @@ function Footer() {
           </div>
 
           <div className="flex flex-col w-1/6">
-            <div className="primary-black text-3xl p-4 bg-blue-900 flex justify-center tracking-wider leading-6">
+            <div className="primary-black 2xl:text-3xl xl:text-2xl text-xl p-4 bg-blue-900 flex justify-center tracking-wider leading-6">
               Follow us on
             </div>
             <div className="flex flex-row justify-between mt-8">
