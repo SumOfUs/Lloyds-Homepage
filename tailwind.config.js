@@ -57,6 +57,7 @@ module.exports = {
         5: "5rem",
       },
       screens: {
+        biglg: "1100px",
         "2xl": "1440px",
         "3xl": "1536px",
       },
