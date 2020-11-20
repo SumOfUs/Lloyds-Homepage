@@ -2,9 +2,9 @@ import React from "react";
 
 function ProbSolutionContainer() {
   return (
-    <div className="flex lg:flex-row justify-around w-full flex-col">
-      <div className="lg:w-1/2 bg-white lg:px-16 py-8 p-8 relative">
-        <div className="max-w-600 mx-auto ">
+    <div className="w-full white-grey-bg">
+      <div className="max-w-1440 3xl:mx-auto flex lg:flex-row flex-col mx-8">
+        <div className="lg:w-1/2 3xl:pr-24 2xl:pr-16 lg:pr-16 py-8">
           <div className="primary-black text-6xl">The Problem</div>
           <div className="primary-extra-bold text-5xl mb-6 leading-tight">
             Insuring and investing in climate destruction
@@ -26,9 +26,7 @@ function ProbSolutionContainer() {
             How Lloyd’s insures climate destruction
           </a>
         </div>
-      </div>
-      <div className="lg:w-1/2 bg-gray-1100 lg:px-16 py-8 p-8 relative">
-        <div className="max-w-600 mx-auto">
+        <div className="lg:w-1/2 3xl:pl-24 2xl:pl-16 lg:pl-8 py-8">
           <div className="primary-black text-6xl">The Solution</div>
           <div className="primary-extra-bold text-5xl mb-6 leading-tight tracking-tight">
             Stop insuring and investing in coal, tar sands, oil & gas.

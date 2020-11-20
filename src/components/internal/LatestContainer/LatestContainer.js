@@ -16,10 +16,10 @@ function LatestContainer() {
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
             Press release
           </div>
-          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-8 xl:min-h-0 lg:min-h-135 min-h-0">
+          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-4 xl:min-h-0">
             Coca Cola tops the list of emitting CO2
           </div>
-          <div className="text-blue-900 text-2xl tracking-wide mb-16 cursor-pointer flex-row flex items-center">
+          <div className="text-blue-900 text-2xl tracking-wide mb-4 cursor-pointer flex-row flex items-center">
             <span className="primary-extra-bold mr-16">Find out more</span>
             <img
               src="/icons/arrow-right.png"
@@ -38,10 +38,10 @@ function LatestContainer() {
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
             Report
           </div>
-          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-8 xl:min-h-0 lg:min-h-135 min-h-0">
+          <div className="text-black primary-extra-bold text-3xl tracking-tight mb-4 xl:min-h-0">
             The adani coal mine emits 120M tonnes of CO2
           </div>
-          <div className="text-blue-900 text-2xl tracking-wide mb-16 cursor-pointer flex-row flex items-center">
+          <div className="text-blue-900 text-2xl tracking-wide mb-4 cursor-pointer flex-row flex items-center">
             <span className="primary-extra-bold mr-16">Find out more</span>
             <img
               src="/icons/arrow-right.png"
@@ -60,10 +60,10 @@ function LatestContainer() {
           <div className="text-blue-900 uppercase primary-extra-bold mt-6 tracking-widest leading-6">
             Article
           </div>
-          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-8 xl:min-h-0 lg:min-h-135 min-h-0">
+          <div className="text-black primary-extra-bold text-3xl tracking-wide mb-4 xl:min-h-0">
             Mp Calls to End Sewage pollution
           </div>
-          <div className="text-blue-900 text-2xl tracking-wide mb-16 cursor-pointer flex-row flex items-center">
+          <div className="text-blue-900 text-2xl tracking-wide mb-4 cursor-pointer flex-row flex items-center">
             <span className="primary-extra-bold mr-16">Find out more</span>
             <img
               src="/icons/arrow-right.png"
