@@ -33,22 +33,22 @@ const HeroBannerItems = [
 
 function HeroContainer() {
   const [activeSlide, setActiveSlide] = useState(0);
-  const wordChangerArr = ["coal", "tar sands", "oil & gas"];
-  const [index, setIndex] = useState(0);
-  const [time, setTime] = useState(new Date().getSeconds());
+  // const wordChangerArr = ["coal", "tar sands", "oil & gas"];
+  // const [index, setIndex] = useState(0);
+  // const [time, setTime] = useState(new Date().getSeconds());
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTime(new Date().getSeconds());
-    }, 5000);
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setTime(new Date().getSeconds());
+  //   }, 5000);
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    setIndex(index < 2 ? index + 1 : 0);
-  }, [time]);
+  // useEffect(() => {
+  //   setIndex(index < 2 ? index + 1 : 0);
+  // }, [time]);
 
   return (
     <div className="relative hero-section" style={{ marginTop: "92px" }}>
@@ -83,7 +83,10 @@ function HeroContainer() {
             </div>
             <div className="primary-medium text-2xl my-4">
               <span>Insuring&nbsp;</span>
-              <span className="font-bold">{wordChangerArr[index]}</span>
+              <span className="font-bold">
+                {/* {wordChangerArr[index]} */}
+                coal
+              </span>
               <span>&nbsp;& Profiting from climate destruction</span>
             </div>
             <a
