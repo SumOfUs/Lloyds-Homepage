@@ -51,7 +51,7 @@ function HeroContainer() {
   }, [time]);
 
   return (
-    <div className="relative hero-section">
+    <div className="relative hero-section" style={{ marginTop: "92px" }}>
       <Carousel
         showThumbs={false}
         showArrows={false}
@@ -75,43 +75,49 @@ function HeroContainer() {
           );
         })}
       </Carousel>
-      <div className="absolute w-full h-full top-0 left-0">
-        <div className="absolute top-30 left-0 text-white md:ml-16 ml-8 flex flex-col justify-start items-start lg:w-2/5 text-left">
-          <div className="text-6xl primary-extra-bold leading-none tracking-tight">
-            Lloyd’s Climate Catastrophe
+      <div className="absolute w-screen h-500 top-0 left-0">
+        <div className="max-w-1440 mx-auto h-full">
+          <div className="text-white 3xl:ml-0 lg:ml-12 ml-8 flex flex-col justify-center items-start lg:w-2/5 text-left h-full">
+            <div className="text-6xl primary-extra-bold leading-none tracking-tight">
+              Lloyd’s Climate Catastrophe
+            </div>
+            <div className="primary-medium text-2xl my-4">
+              <span>Insuring&nbsp;</span>
+              <span className="font-bold">{wordChangerArr[index]}</span>
+              <span>&nbsp;& Profiting from climate destruction</span>
+            </div>
+            <a
+              href="/problem"
+              className="w-48 py-3 bg-blue-900 primary-bold text-xl flex justify-center"
+            >
+              Learn More
+            </a>
           </div>
-          <div className="primary-medium text-2xl my-4">
-            <span>Insuring&nbsp;</span>
-            <span className="font-bold">{wordChangerArr[index]}</span>
-            <span>&nbsp;& Profiting from climate destruction</span>
-          </div>
-          <a
-            href="/problem"
-            className="w-48 py-3 bg-blue-900 primary-bold text-xl flex justify-center"
-          >
-            Learn More
-          </a>
-        </div>
-        <div className="absolute top-60 right-0 mr-16 flex hidden">
-          <div
-            className="w-12 h-12 bg-blue-900 px-2 py-2 cursor-pointer flex items-center justify-center"
-            onClick={() => {
-              setActiveSlide(
-                activeSlide === 0 ? HeroBannerItems.length - 1 : activeSlide - 1
-              );
-            }}
-          >
-            <img src="/icons/left-play.png" alt="left-play" />
-          </div>
-          <div
-            className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer flex items-center justify-center"
-            onClick={() => {
-              setActiveSlide(
-                HeroBannerItems.length - 1 === activeSlide ? 0 : activeSlide + 1
-              );
-            }}
-          >
-            <img src="/icons/right-play.png" alt="right-play" />
+          <div className="absolute top-60 right-0 mr-16 flex hidden">
+            <div
+              className="w-12 h-12 bg-blue-900 px-2 py-2 cursor-pointer flex items-center justify-center"
+              onClick={() => {
+                setActiveSlide(
+                  activeSlide === 0
+                    ? HeroBannerItems.length - 1
+                    : activeSlide - 1
+                );
+              }}
+            >
+              <img src="/icons/left-play.png" alt="left-play" />
+            </div>
+            <div
+              className="w-12 h-12 bg-blue-900 mx-2 px-2 py-2 cursor-pointer flex items-center justify-center"
+              onClick={() => {
+                setActiveSlide(
+                  HeroBannerItems.length - 1 === activeSlide
+                    ? 0
+                    : activeSlide + 1
+                );
+              }}
+            >
+              <img src="/icons/right-play.png" alt="right-play" />
+            </div>
           </div>
         </div>
       </div>

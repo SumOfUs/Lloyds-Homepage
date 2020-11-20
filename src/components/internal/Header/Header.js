@@ -4,38 +4,38 @@ function Header() {
   const [openDrawer, setOpenDrawer] = useState(false);
 
   return (
-    <div className="h-100 bg-white">
-      <div className="w-full px-6 pb-0 lg:px-12 flex flex-row z-20 relative header-container lg:flex-col">
+    <div className="h-100 bg-white fixed top-0 w-full z-50 shadow-md">
+      <div className="w-full px-6 pb-0 lg:px-12 3xl:px-0 flex flex-row z-20 relative header-container justify-between items-end max-w-1440 mx-auto">
         <a className="text-black text-3xl" href="/">
-          <img src="/icons/logo.png" alt="lloyds" width={150} />
+          <img src="/icons/logo.png" alt="lloyds" width={180} />
         </a>
         <div className="hidden flex-row my-3 mb-0 lg:flex">
           <a
-            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            className="xl:w-48 lg:w-32 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
             href="/problem"
           >
             Problem
           </a>
           <a
-            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            className="xl:w-48 lg:w-32 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
             href="/solution"
           >
             Solution
           </a>
           <a
-            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            className="xl:w-48 lg:w-32 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
             href="/members"
           >
             Members
           </a>
           <a
-            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            className="xl:w-48 lg:w-32 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
             href="/latest"
           >
             Latest
           </a>
           <a
-            className="w-56 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
+            className="xl:w-48 lg:w-32 py-6 mx-1 ml-0 h-10 cursor-pointer bg-gray-1000 text-white text-2xl primary-extra-bold flex justify-center tracking-wider items-center hover:text-blue-1200"
             href="/act"
           >
             Act

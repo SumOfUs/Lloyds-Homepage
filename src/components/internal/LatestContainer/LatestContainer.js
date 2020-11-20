@@ -2,7 +2,7 @@ import React from "react";
 
 function LatestContainer() {
   return (
-    <div className="w-auto lg:mx-12 md:m-8 my-8 mx-3 max-w-1440 2xl:mx-auto md:px-12">
+    <div className="w-auto lg:mx-12 md:m-8 my-8 mx-3 max-w-1440 2xl:mx-auto xl:px-12 3xl:px-0">
       <div className="primary-black text-6xl text-black tracking-tight mb-8">
         The Latest
       </div>
