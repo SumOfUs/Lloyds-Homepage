@@ -51,7 +51,7 @@ function HeroContainer() {
   // }, [time]);
 
   return (
-    <div className="relative hero-section" style={{ marginTop: "92px" }}>
+    <div className="relative hero-section mt-100">
       <Carousel
         showThumbs={false}
         showArrows={false}
