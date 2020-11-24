@@ -12,7 +12,11 @@ function Accordion({ question, answer }) {
             onClick={() => setOpen(!open)}
             className="w-6 sm:w-10 h-6 sm:h-10 bg-white rounded-full flex items-center justify-center cursor-pointer"
           >
-            <ChevronUp />
+            <ChevronUp
+              className={`transition-all duration-700 transform ${
+                !open && "rotate-180"
+              }`}
+            />
           </div>
         </div>
         <p
