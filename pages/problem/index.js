@@ -1,5 +1,6 @@
 import Footer from "../../src/components/internal/Footer";
 import Header from "../../src/components/internal/Header";
+import ImageCard from "../../src/components/internal/ImageCard/ImageCard";
 
 function Problem() {
   return (
@@ -24,7 +25,12 @@ function Problem() {
               the total $6 billion).
             </div>
           </div>
-          <div className="w-1/2"></div>
+          <div className="w-1/2 mx-12">
+            <ImageCard
+              imgBackground="bg-yellow-lemon"
+              image="https://images.unsplash.com/photo-1558793670-71d192b6a8b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
+            />
+          </div>
         </div>
       </div>
       <div className="bg-gray-1300">
