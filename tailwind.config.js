@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         gray: {
           ...colors.gray,
+          200: "#f9f9f9",
           800: "#6c7e8e",
           900: "#303030",
           1000: "#252525",
@@ -48,6 +49,7 @@ module.exports = {
       },
       height: {
         250: 250,
+        280: 280,
         300: 300,
         350: 350,
         400: 400,
@@ -73,6 +75,9 @@ module.exports = {
         biglg: "1100px",
         "2xl": "1440px",
         "3xl": "1536px",
+      },
+      spacing: {
+        15: "3.75rem",
       },
     },
   },
