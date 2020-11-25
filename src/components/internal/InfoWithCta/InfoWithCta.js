@@ -4,7 +4,7 @@ function InfoWithCta({ heading, description, buttonText, isDark }) {
   return (
     <div
       className={`sm:px-20 sm:py-24 p-8 ${
-        isDark ? "bg-gray-1200 text-white" : "bg-gray-200 text-gray-900"
+        isDark ? "bg-gray-1500 text-white" : "bg-gray-200 text-gray-900"
       }`}
     >
       <h3 className="primary-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
