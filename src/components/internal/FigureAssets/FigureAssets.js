@@ -20,6 +20,7 @@ function FigureAssets({ assets }) {
               className={`max-w-sm w-full bg-gray-1000 lg:pt-15 px-10 items-center lg:items-start justify-center lg:justify-start sm:px-12 h-48 sm:h-280 flex flex-col lg:my-0 my-5 ${
                 idx !== lastIdx && "lg:mr-10"
               }`}
+              key={Math.random()}
             >
               <h2 className="xl:text-6xl sm:text-5xl text-4xl leading-none font-bold">
                 {asset.figure}
