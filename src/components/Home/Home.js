@@ -1,15 +1,15 @@
 import React from "react";
 
-import Header from "../Header";
-import HeroContainer from "../HeroContainer";
-import ProbSolutionContainer from "../ProbSolutionContainer";
-import ProudBannerContainer from "../ProudBannerContainer";
-import LatestContainer from "../LatestContainer";
-import SignUpContainer from "../SignUpContainer";
-import ActNowContainer from "../ActNowContainer/ActNowContainer";
-import Footer from "../Footer";
+import HeroContainer from "./HeroContainer";
+import ProbSolutionContainer from "./ProbSolutionContainer";
+import ProudBannerContainer from "./ProudBannerContainer";
+import LatestContainer from "./LatestContainer";
+import SignUpContainer from "./SignUpContainer";
+import ActNowContainer from "./ActNowContainer/ActNowContainer";
 import Head from "next/head";
-import TweetContainer from "../TweetContainer/TweetContainer";
+import TweetContainer from "./TweetContainer/TweetContainer";
+import Header from "../internal/Header";
+import Footer from "../internal/Footer";
 
 const Home = () => {
   return (
