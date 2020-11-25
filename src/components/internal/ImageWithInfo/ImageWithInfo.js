@@ -22,7 +22,7 @@ function ImageWithInfo({
           imgPosition === "right" ? "xl:mr-24 lg:mr-16" : "xl:ml-24 lg:ml-16"
         }`}
       >
-        <h2 className="lg:text-6xl sm:text-5xl text-4xl mb-10 leading-none">
+        <h2 className="lg:text-6xl sm:text-5xl text-4xl mb-10 leading-none primary-bold">
           {heading}
         </h2>
         {subHeading && (
