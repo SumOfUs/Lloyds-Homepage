@@ -20,8 +20,8 @@ function SignUpContainer() {
         <div className="text-white lg:text-5xl lg:mb-0 mb-8 text-4xl primary-black tracking-normal max-w-md leading-tight">
           Sign up for the Newsletter
         </div>
-        <div className="text-white text-6xl primary-black tracking-normal lg:w-1/2 flex flex-col justify-center">
-          <div className="primary-extra-bold text-lg">Email</div>
+        <div className="text-white text-6xl primary-black tracking-normal lg:w-1/2 flex flex-col justify-center items-end">
+          <div className="primary-extra-bold text-lg w-3/4 max-w-sm">Email</div>
           <div className="relative h-12 flex w-3/4 max-w-sm">
             <input
               id="email"

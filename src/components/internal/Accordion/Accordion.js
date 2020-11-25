@@ -4,7 +4,7 @@ import { ChevronUp } from "../../../_helpers/Icons";
 function Accordion({ question, answer }) {
   const [open, setOpen] = useState(true);
   return (
-    <article className="bg-gray-200 text-gray-900 p-10">
+    <article className="bg-gray-200 text-gray-900 p-10 my-12">
       <div className="flex flex-col">
         <div className="flex items-center justify-between sm:text-5xl text-xl font-black">
           <span>{question}</span>

@@ -51,7 +51,7 @@ function HeroContainer() {
   // }, [time]);
 
   return (
-    <div className="relative hero-section" style={{ marginTop: "92px" }}>
+    <div className="relative hero-section mt-100">
       <Carousel
         showThumbs={false}
         showArrows={false}
@@ -78,17 +78,17 @@ function HeroContainer() {
       <div className="absolute w-screen h-350 top-0 left-0">
         <div className="max-w-1440 mx-auto h-full">
           <div className="text-white 3xl:ml-0 lg:ml-12 ml-8 flex flex-col justify-center items-start lg:w-4/5 text-left h-full">
-            <div className="text-6xl primary-extra-bold leading-none tracking-tight">
+            <h1 className="text-6xl primary-extra-bold leading-none tracking-tight">
               Lloyd’s Climate Catastrophe
-            </div>
-            <div className="primary-medium text-2xl my-4">
+            </h1>
+            <p className="primary-medium text-2xl my-4">
               <span>Insuring&nbsp;</span>
               <span className="font-bold">
                 {/* {wordChangerArr[index]} */}
                 coal
               </span>
               <span>&nbsp;& Profiting from climate destruction</span>
-            </div>
+            </p>
             <a
               href="/problem"
               className="w-48 py-3 bg-blue-900 primary-bold text-xl flex justify-center"
