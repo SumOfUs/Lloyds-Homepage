@@ -1,12 +1,13 @@
 import Footer from "../src/components/internal/Footer";
 import Header from "../src/components/internal/Header";
+import ActWrapper from "../src/components/internal/Act";
 
 function Act() {
   return (
     <div className="bg-white lg:bg-gray-150">
       <Header />
-      <div className="h-screen bg-gray-900 flex justify-center pt-12 text-6xl text-white primary-extra-bold">
-        Act Now
+      <div className="flex justify-center pt-24 primary-extra-bold">
+        <ActWrapper />
       </div>
       <Footer />
     </div>
