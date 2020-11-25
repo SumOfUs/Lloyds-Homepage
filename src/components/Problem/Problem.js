@@ -136,7 +136,7 @@ const Problem = () => {
               </a>
             </div>
             <a
-              href="/solution"
+              href="/problem/lloyds-culture-problems"
               className="w-64 py-4 mt-8 text-xl bg-blue-900 primary-bold text-white flex justify-center"
             >
               Explore Culture Problem

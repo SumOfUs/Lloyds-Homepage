@@ -3,33 +3,35 @@ import Header from "../../src/components/internal/Header";
 import ImageCard from "../../src/components/internal/ImageCard/ImageCard";
 import Accordion from "../../src/components/internal/Accordion/Accordion";
 
-function DirtyProjects() {
+function CultureProblems() {
   return (
     <div className="w-full">
       <Header />
       <div className="bg-black mt-100 py-16">
         <div className="flex max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12 flex-row items-center">
-          <div className="w-1/2 text-white flex flex-col pr-8">
+          <div className="w-1/2 text-white flex flex-col pr-4">
             <h2 className="text-6xl text-white primary-black tracking-tight">
-              LLoyd’s Dirty Projects
+              LLoyd’s Culture Problems
             </h2>
             <p className="text-2xl text-gray-1200 primary-medium pt-8 mb-12">
-              Not only is it in our planet’s best interest to transition away
-              from climate destroying and polluting coal, oil, gas and tar
-              sands, it is in the best interest of the insurance industry to
-              stop investing in destructive energy sources that undermine
-              investments and destroy reputations. While many insurers have
-              started to put in place meaningful policies that exclude insurance
-              of high carbon fossil fuel projects and companies, Lloyd’s remains
-              an ‘insurer of last resort’ and iscentral to the continued
-              operation of some of the world’s dirtiest and most destructive
-              fossil fuel projects.
+              Lloyd’s has deep historic links to slavery. Lloyd’s relatively
+              recent past includes historic financial losses for investors and
+              in recent years a culture of sexual harassment and alcohol abuse
+              in lloyd’s market was widely exposed. Lloyd’s today continues to
+              support fossil fuel projects and companies that are driving
+              climate destruction. Lloyd’s is happy to sign upto pledges and
+              schemes claiming environmental leadership but when it comes to
+              putting those principles into action, Lloyd’s is a hypocrite. The
+              brave risk taking culture image that Lloyd’s advertises appears
+              more like a greedy climate science denying (or willfully ignoring
+              climate science) culture which, like a number of other unsavoury
+              aspects of Lloyd’s culture, should be consigned to history.
             </p>
           </div>
           <div className="w-1/2 mx-12">
             <ImageCard
-              imgBackground="bg-blue-1200"
-              image="https://images.unsplash.com/photo-1569060368645-4ab30c8d8b0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80"
+              imgBackground="bg-yellow-lemon"
+              image="https://images.unsplash.com/photo-1484605731351-aca94cb8b276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2063&q=80"
             />
           </div>
         </div>
@@ -37,7 +39,7 @@ function DirtyProjects() {
       <div className="bg-black flex">
         <div className="max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12">
           <h2 className="text-6xl text-white primary-black tracking-tight">
-            Project of LLoyd’s
+            The Problems are
           </h2>
           <Accordion />
           <Accordion />
@@ -63,4 +65,4 @@ function DirtyProjects() {
   );
 }
 
-export default DirtyProjects;
+export default CultureProblems;
