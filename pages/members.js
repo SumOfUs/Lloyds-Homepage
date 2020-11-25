@@ -6,7 +6,7 @@ function Members() {
   return (
     <div className="bg-white lg:bg-gray-150">
       <Header />
-      <div className="bg-gray-900 flex justify-center pt-20 text-6xl text-white primary-extra-bold">
+      <div className="flex justify-center pt-20 primary-extra-bold">
         <MembersContainer />
       </div>
       <Footer />
