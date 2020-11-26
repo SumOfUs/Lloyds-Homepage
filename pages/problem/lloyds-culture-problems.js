@@ -4,6 +4,47 @@ import ImageCard from "../../src/components/internal/ImageCard/ImageCard";
 import Accordion from "../../src/components/internal/Accordion/Accordion";
 
 function CultureProblems() {
+  const ProjectDetails = [
+    {
+      className: "bg-gray-1500 text-white",
+      heading: "Lloyd’s climate hypocripsy",
+      description:
+        "In 2010 when Indian company Adani Group originally proposed the Carmichael coal mine in Queensland, Australia, it was planned to be one of the largest mines in the world.",
+      imageProps: {
+        image:
+          "https://images.unsplash.com/photo-1433477077279-9354d2d72f6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2730&q=80",
+        imgBackground: "bg-yellow-lemon",
+        borderPosition: "left",
+      },
+      sources: ["BBC", "CNN", "New York Times"],
+    },
+    {
+      className: "bg-gray-1500 text-white",
+      heading: "LLyod’s Links to Slavery",
+      description:
+        "In 2010 when Indian company Adani Group originally proposed the Carmichael coal mine in Queensland, Australia, it was planned to be one of the largest mines in the world.",
+      imageProps: {
+        image:
+          "https://images.unsplash.com/photo-1422004694183-cd2f8c55d4d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI2Mjc0fQ&auto=format&fit=crop&w=2706&q=80",
+        imgBackground: "bg-yellow-lemon",
+        borderPosition: "left",
+      },
+      // sources: ["BBC", "CNN", "New York Times"],
+    },
+    {
+      className: "bg-gray-1500 text-white",
+      heading: "Lloyd’s culture problems: Sexual harassment and alcohol abuse",
+      description:
+        "In 2010 when Indian company Adani Group originally proposed the Carmichael coal mine in Queensland, Australia, it was planned to be one of the largest mines in the world.",
+      imageProps: {
+        image:
+          "https://images.unsplash.com/photo-1414586432391-3178dbff6c7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2467&q=80",
+        imgBackground: "bg-yellow-lemon",
+        borderPosition: "left",
+      },
+      sources: ["BBC", "CNN", "New York Times"],
+    },
+  ];
   return (
     <div className="w-full">
       <Header />
@@ -41,9 +82,9 @@ function CultureProblems() {
           <h2 className="text-6xl text-white primary-black tracking-tight">
             The Problems are
           </h2>
-          <Accordion />
-          <Accordion />
-          <Accordion />
+          {ProjectDetails.map((projDetail) => {
+            return <Accordion {...projDetail} />;
+          })}
         </div>
       </div>
       <div className="bg-gray-1000">

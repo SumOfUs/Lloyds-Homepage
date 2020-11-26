@@ -4,9 +4,53 @@ import ImageCard from "../../src/components/internal/ImageCard/ImageCard";
 import Accordion from "../../src/components/internal/Accordion/Accordion";
 
 function DirtyProjects() {
+  const ProjectDetails = [
+    {
+      className: "bg-gray-1500 text-white",
+      heading: "Adani Carmichael Coal Mine- Australia",
+      description:
+        "In 2010 when Indian company Adani Group originally proposed the Carmichael coal mine in Queensland, Australia, it was planned to be one of the largest mines in the world.",
+      imageProps: {
+        image:
+          "https://images.unsplash.com/photo-1569097269339-cc3ade80af54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3682&q=80",
+        imgBackground: "bg-blue-1200",
+        borderPosition: "left",
+      },
+      sources: ["BBC", "CNN", "New York Times"],
+    },
+    {
+      className: "bg-gray-1500 text-white",
+      heading: "Coal Mine (re)insurance -Poland",
+      description:
+        "In 2010 when Indian company Adani Group originally proposed the Carmichael coal mine in Queensland, Australia, it was planned to be one of the largest mines in the world.",
+      imageProps: {
+        image:
+          "https://images.unsplash.com/photo-1582758487685-37f5db2f1dff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80",
+        imgBackground: "bg-blue-1200",
+        borderPosition: "left",
+      },
+      // sources: ["BBC", "CNN", "New York Times"],
+    },
+    {
+      className: "bg-gray-1500 text-white",
+      heading: "Trans Mountain Pipeline Expansion - Canada",
+      description:
+        "In 2010 when Indian company Adani Group originally proposed the Carmichael coal mine in Queensland, Australia, it was planned to be one of the largest mines in the world.",
+      imageProps: {
+        image:
+          "https://images.unsplash.com/photo-1519558754049-839ef55fcbc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80",
+        imgBackground: "bg-blue-1200",
+        borderPosition: "left",
+      },
+      sources: ["BBC", "CNN", "New York Times"],
+    },
+  ];
   return (
     <div className="w-full">
       <Header />
+
+      {/*  */}
+
       <div className="bg-black mt-100 py-16">
         <div className="flex max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12 flex-row items-center">
           <div className="w-1/2 text-white flex flex-col pr-8">
@@ -34,16 +78,22 @@ function DirtyProjects() {
           </div>
         </div>
       </div>
+
+      {/*  */}
+
       <div className="bg-black flex">
         <div className="max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12">
           <h2 className="text-6xl text-white primary-black tracking-tight">
             Project of LLoyd’s
           </h2>
-          <Accordion />
-          <Accordion />
-          <Accordion />
+          {ProjectDetails.map((projDetail) => {
+            return <Accordion {...projDetail} />;
+          })}
         </div>
       </div>
+
+      {/*  */}
+
       <div className="bg-gray-1000">
         <div className="max-w-1440 3xl:mx-auto xl:mx-16 mx-12 flex flex-row items-center justify-between py-12">
           <div className="text-white text-6xl primary-black w-1/2">
@@ -57,6 +107,8 @@ function DirtyProjects() {
           </a>
         </div>
       </div>
+
+      {/*  */}
 
       <Footer />
     </div>
