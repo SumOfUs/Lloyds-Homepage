@@ -9,7 +9,7 @@ function Accordion({
   description,
   image,
   imgBackground,
-  imgPosition,
+  borderPosition,
   sources,
 }) {
   const [open, setOpen] = useState(true);
@@ -36,7 +36,7 @@ function Accordion({
         >
           <div className="mb-12">
             <ImageCard
-              {...{ image, imgBackground, imgPosition }}
+              {...{ image, imgBackground, borderPosition }}
               className="max-h-400"
             />
           </div>

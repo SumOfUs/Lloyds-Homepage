@@ -15,7 +15,7 @@ function Act() {
       </span>
     ),
     imgBackground: "bg-blue-900",
-    imgPosition: "right",
+    borderPosition: "right",
     image: "https://dummyimage.com/628x487/000/fff&text=Act",
   };
 
