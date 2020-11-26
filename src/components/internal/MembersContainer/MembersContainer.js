@@ -4,177 +4,40 @@ import FigureAssets from "../FigureAssets";
 import Accordion from "../Accordion";
 
 function MembersContainer() {
+  const imageWithInfoContent = {
+    borderPosition: "right",
+    heading: "Lloyd’s Members",
+    description:
+      "While Lloyd’s of London has committed to somecoal divestment from its own central fund, it provides no direction to the 90-plus syndicates that make up 97% of its market. Piecemeal policies are now being put in place by some Lloyd’s members, however Lloyd’s has a long way to go to bring its underwriting and its investment policies in-line with other leading insurers and with what is required to keep global warming under 1.5°C. We demand syndicates commit to stop insuring coal, oil, tar sands and gas, but the ultimate responsibility lies with Lloyd’s Council. Lloyd’s Council cannot just pass the buck to the syndicates and do nothing. Lloyd’s Council, or behind it the UK parliament, have the ultimate responsibility for what takes place under the Lloyd’s name.",
+    image:
+      "https://images.unsplash.com/photo-1602501759424-4a46bf324907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=884&q=80",
+    imgBackground: "bg-blue-900",
+  };
+
   const accordionContent = [
     {
-      heading: "Adani Carmichael Coal Mine- Australia",
-      description: (
-        <>
-          <p>
-            In 2010 when Indian company Adani Group originally proposed the
-            Carmichael coal mine in Queensland, Australia, it was planned to be
-            one of the largest mines in the world.
-          </p>
-          <br />
-          <p>
-            If built, it would “allow 500 more coal ships to travel through the
-            Great Barrier Reef World Heritage Area every year for 60 years,” and
-            “destroy the ancestral lands, waters and cultures of Indigenous
-            people without their consent.”
-          </p>
-          <br />
-          <p>
-            If allowed to operate, it is estimated the mine will add 4.6 billion
-            tonnes of carbon pollution to the atmosphere and will suck out at
-            least 270 billion litres of groundwater over the life of the mine.
-            To date,more than 70 financial institutions, including 27 insurers,
-            have withdrawn from or committed not to be involved in the Adani
-            Carmichael coal mine.
-          </p>
-          <br />
-          <p>
-            However, in 2019 Lloyd’s members started insuring Adani at the very
-            time other more responsible insurers were refusing to do so and in
-            contradiction to statements made by Lloyd’s to the Insure our Future
-            network (previously the Unfriend Coal network) earlier that year.
-          </p>
-          <br />
-          <p>
-            The #StopAdanicampaign is demanding companies commit to ending their
-            association with the climate-wrecking Carmichael project. Many
-            Lloyd’s members have already publicly ruled out insuring Adani or
-            said they will not provide further cover. Pressure is increasing on
-            the few Lloyd’s members who continue to insure the project and other
-            who refuse to rule it out.
-          </p>
-          <br />
-          <p>
-            That pressure is increasingly being felt by the entire Lloyd’s
-            market and brand. It is time for the entire Lloyd’s market to close
-            its doors to Adani for good.
-          </p>
-        </>
-      ),
-      image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
-      imgBackground: "bg-yellow-600",
-      borderPosition: "left",
-      sources: ["BBC", "CNN", "New York Times"],
-      className: "bg-gray-1500 text-white",
+      heading: "Lloyd’s Syndicates",
+      description:
+        "A Lloyd’s syndicate is formed by one or more members joining together to provide capital and accept insurance risks. There are currently 93syndicates, which are set up on an annual basis. In practice, they usually operate from year to year and function like permanent insurance operations. Lloyd’s syndicates insure a wide range of specialist risk. All Lloyd’s syndicates benefit from Lloyd’s central resources, including Lloyd's brand, its network of global licences and the Central Fund.",
+      className: "bg-gray-200 text-gray-900",
     },
     {
-      heading: "Trans Mountain Pipeline Expansion - Canada",
-      description: (
-        <>
-          <p>
-            In 2010 when Indian company Adani Group originally proposed the
-            Carmichael coal mine in Queensland, Australia, it was planned to be
-            one of the largest mines in the world.
-          </p>
-          <br />
-          <p>
-            If built, it would “allow 500 more coal ships to travel through the
-            Great Barrier Reef World Heritage Area every year for 60 years,” and
-            “destroy the ancestral lands, waters and cultures of Indigenous
-            people without their consent.”
-          </p>
-          <br />
-          <p>
-            If allowed to operate, it is estimated the mine will add 4.6 billion
-            tonnes of carbon pollution to the atmosphere and will suck out at
-            least 270 billion litres of groundwater over the life of the mine.
-            To date,more than 70 financial institutions, including 27 insurers,
-            have withdrawn from or committed not to be involved in the Adani
-            Carmichael coal mine.
-          </p>
-          <br />
-          <p>
-            However, in 2019 Lloyd’s members started insuring Adani at the very
-            time other more responsible insurers were refusing to do so and in
-            contradiction to statements made by Lloyd’s to the Insure our Future
-            network (previously the Unfriend Coal network) earlier that year.
-          </p>
-          <br />
-          <p>
-            The #StopAdanicampaign is demanding companies commit to ending their
-            association with the climate-wrecking Carmichael project. Many
-            Lloyd’s members have already publicly ruled out insuring Adani or
-            said they will not provide further cover. Pressure is increasing on
-            the few Lloyd’s members who continue to insure the project and other
-            who refuse to rule it out.
-          </p>
-          <br />
-          <p>
-            That pressure is increasingly being felt by the entire Lloyd’s
-            market and brand. It is time for the entire Lloyd’s market to close
-            its doors to Adani for good.
-          </p>
-        </>
-      ),
-      image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
-      imgBackground: "bg-blue-900",
-      borderPosition: "left",
-      sources: ["BBC", "CNN", "New York Times"],
-      className: "bg-gray-1500 text-white",
+      heading: "Lloyd’s corporation",
+      description:
+        "A Lloyd’s syndicate is formed by one or more members joining together to provide capital and accept insurance risks. There are currently 93syndicates, which are set up on an annual basis. In practice, they usually operate from year to year and function like permanent insurance operations. Lloyd’s syndicates insure a wide range of specialist risk. All Lloyd’s syndicates benefit from Lloyd’s central resources, including Lloyd's brand, its network of global licences and the Central Fund.",
+      className: "bg-gray-200 text-gray-900",
     },
     {
-      heading: "Coal Mine (re)insurance -Poland",
-      description: (
-        <>
-          <p>
-            In 2010 when Indian company Adani Group originally proposed the
-            Carmichael coal mine in Queensland, Australia, it was planned to be
-            one of the largest mines in the world.
-          </p>
-          <br />
-          <p>
-            If built, it would “allow 500 more coal ships to travel through the
-            Great Barrier Reef World Heritage Area every year for 60 years,” and
-            “destroy the ancestral lands, waters and cultures of Indigenous
-            people without their consent.”
-          </p>
-          <br />
-          <p>
-            If allowed to operate, it is estimated the mine will add 4.6 billion
-            tonnes of carbon pollution to the atmosphere and will suck out at
-            least 270 billion litres of groundwater over the life of the mine.
-            To date,more than 70 financial institutions, including 27 insurers,
-            have withdrawn from or committed not to be involved in the Adani
-            Carmichael coal mine.
-          </p>
-          <br />
-          <p>
-            However, in 2019 Lloyd’s members started insuring Adani at the very
-            time other more responsible insurers were refusing to do so and in
-            contradiction to statements made by Lloyd’s to the Insure our Future
-            network (previously the Unfriend Coal network) earlier that year.
-          </p>
-          <br />
-          <p>
-            The #StopAdanicampaign is demanding companies commit to ending their
-            association with the climate-wrecking Carmichael project. Many
-            Lloyd’s members have already publicly ruled out insuring Adani or
-            said they will not provide further cover. Pressure is increasing on
-            the few Lloyd’s members who continue to insure the project and other
-            who refuse to rule it out.
-          </p>
-          <br />
-          <p>
-            That pressure is increasingly being felt by the entire Lloyd’s
-            market and brand. It is time for the entire Lloyd’s market to close
-            its doors to Adani for good.
-          </p>
-        </>
-      ),
-      image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
-      imgBackground: "bg-blue-900",
-      borderPosition: "right",
-      sources: ["BBC", "CNN", "New York Times"],
-      className: "bg-gray-1500 text-white",
+      heading: "Lloyd’s Council",
+      description:
+        "A Lloyd’s syndicate is formed by one or more members joining together to provide capital and accept insurance risks. There are currently 93syndicates, which are set up on an annual basis. In practice, they usually operate from year to year and function like permanent insurance operations. Lloyd’s syndicates insure a wide range of specialist risk. All Lloyd’s syndicates benefit from Lloyd’s central resources, including Lloyd's brand, its network of global licences and the Central Fund.",
+      className: "bg-gray-200 text-gray-900",
     },
   ];
 
   return (
     <div>
-      <ImageWithInfo />
+      <ImageWithInfo {...imageWithInfoContent} />
       <div className="w-full flex flex-col bg-blue-900 text-white sm:py-12 p-8 sm:px-20">
         <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
           What is Lloyd’s?
