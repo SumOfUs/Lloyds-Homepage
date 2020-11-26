@@ -36,7 +36,7 @@ const Problem = () => {
         </div>
       </div>
       <div className="bg-gray-1000">
-        <div className="flex max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12 flex-col py-24">
+        <div className="flex max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12 flex-col pt-12 pb-24">
           <div className="text-6xl text-white primary-extra-bold">
             Some Real Stats
           </div>

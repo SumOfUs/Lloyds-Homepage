@@ -3,17 +3,24 @@ import { ChevronUp } from "../../../_helpers/Icons";
 import ImageCard from "../ImageCard";
 import SourceTag from "../SourceTag";
 
-function Accordion({ className, heading, description, imageProps, sources }) {
-  const [open, setOpen] = useState(true);
+function Accordion({
+  className,
+  heading,
+  description,
+  imageProps,
+  sources,
+  accordionOpen,
+}) {
+  const [open, setOpen] = useState(accordionOpen);
   return (
     <article className={`${className} p-10 my-12`}>
       <div className="flex flex-col">
-        <div className="flex items-center justify-between sm:text-5xl text-xl font-black primary-black">
-          <span>{heading}</span>
-          <div
-            onClick={() => setOpen(!open)}
-            className="w-6 sm:w-10 h-6 sm:h-10 bg-white rounded-full flex items-center justify-center cursor-pointer"
-          >
+        <div
+          onClick={() => setOpen(!open)}
+          className="flex items-center justify-between sm:text-5xl text-xl font-black cursor-pointer"
+        >
+          <span className="primary-black">{heading}</span>
+          <div className="w-6 sm:w-10 h-6 sm:h-10 bg-white rounded-full flex items-center justify-center">
             <ChevronUp
               className={`transition-all duration-700 transform ${
                 !open && "rotate-180"
@@ -51,6 +58,7 @@ function Accordion({ className, heading, description, imageProps, sources }) {
 }
 
 Accordion.defaultProps = {
+  accordionOpen: true,
   heading: "Lloyd’s Syndicates",
   className: "bg-gray-200 text-gray-900",
   description: (
