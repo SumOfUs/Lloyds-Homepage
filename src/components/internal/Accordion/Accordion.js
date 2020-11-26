@@ -3,15 +3,7 @@ import { ChevronUp } from "../../../_helpers/Icons";
 import ImageCard from "../ImageCard";
 import SourceTag from "../SourceTag";
 
-function Accordion({
-  className,
-  heading,
-  description,
-  image,
-  imgBackground,
-  borderPosition,
-  sources,
-}) {
+function Accordion({ className, heading, description, imageProps, sources }) {
   const [open, setOpen] = useState(true);
   return (
     <article className={`${className} p-10 my-12`}>
@@ -34,12 +26,11 @@ function Accordion({
             open ? "max-h-1400 mt-10" : "max-h-0"
           }`}
         >
-          <div className="mb-12">
-            <ImageCard
-              {...{ image, imgBackground, borderPosition }}
-              className="max-h-400"
-            />
-          </div>
+          {imageProps && (
+            <div className="mb-12">
+              <ImageCard {...imageProps} className="max-h-400" />
+            </div>
+          )}
           <div className="text-base sm:text-2xl">{description}</div>
           {sources && (
             <div className="mt-5">
