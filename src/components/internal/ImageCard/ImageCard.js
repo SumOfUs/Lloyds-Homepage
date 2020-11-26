@@ -1,13 +1,20 @@
 import React from "react";
 
-function ImageCard({ imgPosition, image, imgBackground }) {
+function ImageCard({ borderPosition, image, imgBackground, className, rest }) {
   return (
-    <div className={`${imgBackground} flex`}>
+    <div
+      className={`${imgBackground} flex ${className} ${
+        borderPosition === "right"
+          ? "sm:mt-6 mt-3 sm:ml-6 ml-3"
+          : "sm:mb-6 mb-3 sm:mr-6 mr-3"
+      }`}
+      {...rest}
+    >
       <img
-        className={`flex ${
-          imgPosition === "right"
-            ? "-translate-x-6 -translate-y-6"
-            : "translate-x-6 translate-y-6"
+        className={`flex w-full ${
+          borderPosition === "right"
+            ? "sm:-translate-x-6 -translate-x-3 sm:-translate-y-6 -translate-y-3"
+            : "sm:translate-x-6 translate-x-3 sm:translate-y-6 translate-y-3"
         } transform`}
         src={image}
       />
@@ -16,7 +23,7 @@ function ImageCard({ imgPosition, image, imgBackground }) {
 }
 
 ImageCard.defaultProps = {
-  imgPosition: "right",
+  borderPosition: "right",
   image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
   imgBackground: "bg-blue-900",
 };

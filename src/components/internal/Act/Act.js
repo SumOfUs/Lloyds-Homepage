@@ -15,8 +15,9 @@ function Act() {
       </span>
     ),
     imgBackground: "bg-blue-900",
-    imgPosition: "right",
-    image: "https://dummyimage.com/628x487/000/fff&text=Act",
+    borderPosition: "right",
+    image:
+      "https://images.unsplash.com/photo-1483825366482-1265f6ea9bc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   };
 
   const signInContent = {
@@ -38,21 +39,35 @@ function Act() {
     <div className="w-full">
       <ImageWithInfo {...imageWithInfoContent} />
       <SignUpContainer />
-      <div className="sm:px-20 sm:py-24 p-8 bg-white">
-        <h3 className="primary-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
+      <div className="sm:px-20 sm:py-16 p-8 bg-white">
+        <h3 className="primary-extra-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
           Are you an Lloyd’s Employee?
         </h3>
-        <p className="sm:text-2xl text-base">
-          Take this survey to share your thoughts on Lloyd’s fossil fuel
-          business. Your responses can be totally anonymous, or you can share
-          your contact info for updates. As anemployee, you’re well-placed to
-          help Lloyd’s tackle climate change, and we’d love to connect with you.
-          You can also reach out to us confidentially via email: ADD
+        <p className="sm:text-2xl primary-semi-bold text-base">
+          Take this{" "}
+          <a className="inline-block text-blue-900 underline">survey</a> to
+          share your thoughts on Lloyd’s fossil fuel business. Your responses
+          can be totally anonymous, or you can share your contact info for
+          updates. As anemployee, you’re well-placed to help Lloyd’s tackle
+          climate change, and we’d love to connect with you. You can also reach
+          out to us confidentially via email: ADD
         </p>
       </div>
       <InfoWithCta {...signInContent} />
       <InfoWithCta {...tweetsContent} />
       <PhotosContainer />
+      <div className="w-full flex flex-col items-center bg-gray-200 sm:py-12 p-8 sm:px-20 text-gray-900">
+        <h2 className="font-bold sm:text-6xl text-2xl mb-5 sm:mb-10 primary-extra-bold">
+          Are you excited to do more? Join the movement
+        </h2>
+        <p className="sm:text-2xl text-base primary-semi-bold">
+          Sign up hereand we will keep you updated on ways to take action to
+          call on Lloyd’s to insure our future.
+        </p>
+        <button className="mt-12 max-w-xs w-full py-6 bg-blue-900 text-white sm:text-2xl text-xl primary-bold">
+          Sign Up Here
+        </button>
+      </div>
     </div>
   );
 }
