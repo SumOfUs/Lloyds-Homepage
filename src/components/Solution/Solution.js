@@ -134,7 +134,25 @@ const Solution = () => {
 
       {/*  */}
 
-      <ProudBannerContainer />
+      <div className="w-full relative">
+        <img
+          src="/icons/ProudBanner.png"
+          alt="Proud Banner"
+          className="w-full h-350 object-cover"
+          height={250}
+        />
+        <div className="absolute w-full h-350 top-0 left-0">
+          <div className="max-w-1440 mx-auto h-full flex items-center">
+            <div className="3xl:ml-0 lg:ml-12 ml-8 primary-black text-white lg:text-5xl md:text-4xl text-3xl md:w-2/5">
+              Everyone else is&nbsp;
+              <span className="primary-black bg-yellow-lemon text-black">
+                moving
+              </span>
+              , why aren’t Lloyd’s and its members
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/*  */}
 
