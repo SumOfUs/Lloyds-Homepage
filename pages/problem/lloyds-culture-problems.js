@@ -59,7 +59,6 @@ function CultureProblems() {
           </a>
         </div>
       </div>
-
       <Footer />
     </div>
   );
