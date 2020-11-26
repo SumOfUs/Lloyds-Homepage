@@ -3,7 +3,7 @@ import React from "react";
 function FigureAssets({ assets }) {
   const lastIdx = assets.length - 1;
   return (
-    <section className="w-full px-8 sm:px-20 pt-10 pb-20 bg-black text-white">
+    <section className="w-full px-8 sm:px-20 py-16 bg-black text-white">
       <div className="mb-8 sm:mb-12">
         <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
           Figure on Assets

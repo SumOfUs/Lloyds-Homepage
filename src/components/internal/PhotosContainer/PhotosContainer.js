@@ -2,7 +2,7 @@ import React from "react";
 
 function PhotosContainer() {
   return (
-    <div className="sm:px-20 sm:py-24 p-8 text-gray-900 bg-white">
+    <div className="sm:px-20 sm:py-16 p-8 text-gray-900 bg-white">
       <h3 className="primary-bold sm:text-5xl text-2xl mb-6">Photos</h3>
       <p className="sm:text-4xl text-2xl">
         Resources: Here you can access social media assets, signs, banners and

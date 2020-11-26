@@ -3,7 +3,7 @@ import React from "react";
 function InfoWithCta({ heading, description, buttonText, isDark }) {
   return (
     <div
-      className={`sm:px-20 sm:py-24 p-8 ${
+      className={`sm:px-20 sm:py-16 p-8 ${
         isDark ? "bg-gray-1500 text-white" : "bg-gray-200 text-gray-900"
       }`}
     >

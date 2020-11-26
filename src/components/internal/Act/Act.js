@@ -39,8 +39,8 @@ function Act() {
     <div className="w-full">
       <ImageWithInfo {...imageWithInfoContent} />
       <SignUpContainer />
-      <div className="sm:px-20 sm:py-24 p-8 bg-white">
-        <h3 className="primary-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
+      <div className="sm:px-20 sm:py-16 p-8 bg-white">
+        <h3 className="primary-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
           Are you an Lloyd’s Employee?
         </h3>
         <p className="sm:text-2xl text-base">

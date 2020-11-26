@@ -15,7 +15,7 @@ function ImageWithInfo({
         borderPosition === "right"
           ? "lg:flex-row flex-col-reverse"
           : "lg:flex-row-reverse flex-col"
-      } xl:pl-20 xl:py-24 sm:pr-12 sm:pl-16 sm:py-16 p-6 items-center`}
+      } xl:pl-20 xl:py-20 sm:pr-12 sm:pl-16 sm:py-16 p-6 items-center`}
     >
       <div
         className={`flex flex-col lg:w-1/2 ${
