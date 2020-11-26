@@ -1,13 +1,20 @@
 import React from "react";
 
-function ImageCard({ imgPosition, image, imgBackground }) {
+function ImageCard({ imgPosition, image, imgBackground, className, rest }) {
   return (
-    <div className={`${imgBackground} flex`}>
+    <div
+      className={`${imgBackground} flex ${className} ${
+        imgPosition === "right"
+          ? "sm:mt-6 mt-3 sm:ml-6 ml-3"
+          : "sm:mb-6 mb-3 sm:mr-6 mr-3"
+      }`}
+      {...rest}
+    >
       <img
-        className={`flex ${
+        className={`flex w-full ${
           imgPosition === "right"
-            ? "-translate-x-6 -translate-y-6"
-            : "translate-x-6 translate-y-6"
+            ? "sm:-translate-x-6 -translate-x-3 sm:-translate-y-6 -translate-y-3"
+            : "sm:translate-x-6 translate-x-3 sm:translate-y-6 translate-y-3"
         } transform`}
         src={image}
       />
