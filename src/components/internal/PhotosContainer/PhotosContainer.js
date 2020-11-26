@@ -11,15 +11,15 @@ function PhotosContainer() {
       <div className="flex flex-wrap justify-center mt-10 sm:mt-20">
         <img
           className="sm:max-w-400 m-2"
-          src="https://dummyimage.com/628x487/000/fff&text=DummyImage"
+          src="https://images.unsplash.com/photo-1569163139394-de4e5f43e5ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         />
         <img
           className="sm:max-w-400 m-2"
-          src="https://dummyimage.com/628x487/000/fff&text=DummyImage"
+          src="https://images.unsplash.com/photo-1553034132-0234e7dd7a57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         />
         <img
           className="sm:max-w-400 m-2"
-          src="https://dummyimage.com/628x487/000/fff&text=DummyImage"
+          src="https://images.unsplash.com/photo-1559024094-4a1e4495c3c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         />
       </div>
     </div>

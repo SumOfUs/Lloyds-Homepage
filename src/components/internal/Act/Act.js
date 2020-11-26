@@ -16,7 +16,8 @@ function Act() {
     ),
     imgBackground: "bg-blue-900",
     borderPosition: "right",
-    image: "https://dummyimage.com/628x487/000/fff&text=Act",
+    image:
+      "https://images.unsplash.com/photo-1483825366482-1265f6ea9bc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   };
 
   const signInContent = {
