@@ -5,10 +5,10 @@ function FigureAssets({ assets }) {
   return (
     <section className="w-full px-8 sm:px-20 py-16 bg-black text-white">
       <div className="mb-8 sm:mb-12">
-        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
+        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-8 primary-black">
           Figure on Assets
         </h3>
-        <p className="sm:text-2xl text-base">
+        <p className="sm:text-2xl text-base primary-semi-bold">
           There are three links in the Chain of Security making upassets of
           approx £82 billion (2019)
         </p>
@@ -22,10 +22,10 @@ function FigureAssets({ assets }) {
               }`}
               key={Math.random()}
             >
-              <h2 className="xl:text-6xl sm:text-4xl text-4xl leading-none font-bold">
+              <h2 className="xl:text-6xl sm:text-4xl text-4xl leading-none font-bold primary-extra-bold">
                 {asset.figure}
               </h2>
-              <p className="xl:text-3xl sm:text-2xl text-xl mt-2">
+              <p className="xl:text-3xl sm:text-2xl text-xl mt-2 primary-medium">
                 {asset.info}
               </p>
             </div>

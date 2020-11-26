@@ -22,15 +22,17 @@ function ImageWithInfo({
           borderPosition === "right" ? "xl:mr-24 lg:mr-16" : "xl:ml-24 lg:ml-16"
         }`}
       >
-        <h2 className="lg:text-6xl sm:text-5xl text-4xl mb-10 leading-none primary-bold">
+        <h2 className="lg:text-6xl sm:text-5xl text-4xl mb-10 leading-none primary-black">
           {heading}
         </h2>
         {subHeading && (
-          <h3 className="lg:text-4xl sm:text-3xl text-2xl mb-8">
+          <h3 className="lg:text-4xl sm:text-3xl text-2xl mb-8 primary-extra-bold">
             {subHeading}
           </h3>
         )}
-        <p className="lg:text-2xl sm:text-xl text-base">{description}</p>
+        <p className="lg:text-2xl sm:text-xl text-base primary-semi-bold">
+          {description}
+        </p>
       </div>
       <div className="lg:w-1/2 lg:p-0 p-10">
         <ImageCard {...{ borderPosition, image, imgBackground }} />

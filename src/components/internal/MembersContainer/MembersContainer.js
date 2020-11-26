@@ -39,10 +39,10 @@ function MembersContainer() {
     <div>
       <ImageWithInfo {...imageWithInfoContent} />
       <div className="w-full flex flex-col bg-blue-900 text-white sm:py-12 p-8 sm:px-20">
-        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
+        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10 primary-black">
           What is Lloyd’s?
         </h3>
-        <p className="sm:text-2xl text-base">
+        <p className="sm:text-2xl text-base primary-semi-bold">
           Lloyd’s is not an insurance company, it is a unique
           partially-mutualized marketplace, built around a society of members
           (approx 2000), which organizes itself into syndicates with a view to
@@ -58,7 +58,7 @@ function MembersContainer() {
           and functions of the Council. Together they are known by one globally
           recognised brand name, Lloyd's.
         </p>
-        <p className="sm:text-2xl text-base mt-8">
+        <p className="sm:text-2xl text-base mt-8 primary-semi-bold">
           Whilst Lloyd’s Council and Corporation have the ultimate
           decision-making powers, its members and their syndicate associations
           have significant influence, which means that big decisions get taken
@@ -72,10 +72,10 @@ function MembersContainer() {
         })}
       </div>
       <div className="w-full flex flex-col bg-gray-200 sm:py-12 p-8 sm:px-20 text-gray-900">
-        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
+        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10 primary-black">
           What is Lloyd’s?
         </h3>
-        <p className="sm:text-2xl text-base">
+        <p className="sm:text-2xl text-base primary-semi-bold">
           While Lloyd’s Council has failed to implement a company-wide coal
           policy, Lloyd’smembers have begun to act. Thus far, ___ Lloyd’s
           members have adopted coal policies and all but __ Lloyd’s members have

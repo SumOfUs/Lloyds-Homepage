@@ -40,15 +40,17 @@ function Act() {
       <ImageWithInfo {...imageWithInfoContent} />
       <SignUpContainer />
       <div className="sm:px-20 sm:py-16 p-8 bg-white">
-        <h3 className="primary-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
+        <h3 className="primary-extra-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
           Are you an Lloyd’s Employee?
         </h3>
-        <p className="sm:text-2xl text-base">
-          Take this survey to share your thoughts on Lloyd’s fossil fuel
-          business. Your responses can be totally anonymous, or you can share
-          your contact info for updates. As anemployee, you’re well-placed to
-          help Lloyd’s tackle climate change, and we’d love to connect with you.
-          You can also reach out to us confidentially via email: ADD
+        <p className="sm:text-2xl primary-semi-bold text-base">
+          Take this{" "}
+          <a className="inline-block text-blue-900 underline">survey</a> to
+          share your thoughts on Lloyd’s fossil fuel business. Your responses
+          can be totally anonymous, or you can share your contact info for
+          updates. As anemployee, you’re well-placed to help Lloyd’s tackle
+          climate change, and we’d love to connect with you. You can also reach
+          out to us confidentially via email: ADD
         </p>
       </div>
       <InfoWithCta {...signInContent} />

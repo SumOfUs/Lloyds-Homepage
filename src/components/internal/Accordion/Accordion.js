@@ -8,7 +8,7 @@ function Accordion({ className, heading, description, imageProps, sources }) {
   return (
     <article className={`${className} p-10 my-12`}>
       <div className="flex flex-col">
-        <div className="flex items-center justify-between sm:text-5xl text-xl font-black">
+        <div className="flex items-center justify-between sm:text-5xl text-xl font-black primary-black">
           <span>{heading}</span>
           <div
             onClick={() => setOpen(!open)}
@@ -31,10 +31,12 @@ function Accordion({ className, heading, description, imageProps, sources }) {
               <ImageCard {...imageProps} className="max-h-400" />
             </div>
           )}
-          <div className="text-base sm:text-2xl">{description}</div>
+          <div className="text-base sm:text-2xl primary-semi-bold">
+            {description}
+          </div>
           {sources && (
             <div className="mt-5">
-              <h5 className="text-3xl font-bold">Sources</h5>
+              <h5 className="text-3xl primary-bold font-bold">Sources</h5>
               <div className="flex flex-wrap space-x-6 mt-12">
                 {sources.map((source) => {
                   return <SourceTag>{source}</SourceTag>;
