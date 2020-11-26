@@ -56,6 +56,18 @@ function Act() {
       <InfoWithCta {...signInContent} />
       <InfoWithCta {...tweetsContent} />
       <PhotosContainer />
+      <div className="w-full flex flex-col items-center bg-gray-200 sm:py-12 p-8 sm:px-20 text-gray-900">
+        <h2 className="font-bold sm:text-6xl text-2xl mb-5 sm:mb-10 primary-extra-bold">
+          Are you excited to do more? Join the movement
+        </h2>
+        <p className="sm:text-2xl text-base primary-semi-bold">
+          Sign up hereand we will keep you updated on ways to take action to
+          call on Lloyd’s to insure our future.
+        </p>
+        <button className="mt-12 max-w-xs w-full py-6 bg-blue-900 text-white sm:text-2xl text-xl primary-bold">
+          Sign Up Here
+        </button>
+      </div>
     </div>
   );
 }
