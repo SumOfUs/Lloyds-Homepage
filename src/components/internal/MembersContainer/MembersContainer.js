@@ -1,8 +1,177 @@
 import React from "react";
 import ImageWithInfo from "../ImageWithInfo";
 import FigureAssets from "../FigureAssets";
+import Accordion from "../Accordion";
 
 function MembersContainer() {
+  const accordionContent = [
+    {
+      heading: "Adani Carmichael Coal Mine- Australia",
+      description: (
+        <>
+          <p>
+            In 2010 when Indian company Adani Group originally proposed the
+            Carmichael coal mine in Queensland, Australia, it was planned to be
+            one of the largest mines in the world.
+          </p>
+          <br />
+          <p>
+            If built, it would “allow 500 more coal ships to travel through the
+            Great Barrier Reef World Heritage Area every year for 60 years,” and
+            “destroy the ancestral lands, waters and cultures of Indigenous
+            people without their consent.”
+          </p>
+          <br />
+          <p>
+            If allowed to operate, it is estimated the mine will add 4.6 billion
+            tonnes of carbon pollution to the atmosphere and will suck out at
+            least 270 billion litres of groundwater over the life of the mine.
+            To date,more than 70 financial institutions, including 27 insurers,
+            have withdrawn from or committed not to be involved in the Adani
+            Carmichael coal mine.
+          </p>
+          <br />
+          <p>
+            However, in 2019 Lloyd’s members started insuring Adani at the very
+            time other more responsible insurers were refusing to do so and in
+            contradiction to statements made by Lloyd’s to the Insure our Future
+            network (previously the Unfriend Coal network) earlier that year.
+          </p>
+          <br />
+          <p>
+            The #StopAdanicampaign is demanding companies commit to ending their
+            association with the climate-wrecking Carmichael project. Many
+            Lloyd’s members have already publicly ruled out insuring Adani or
+            said they will not provide further cover. Pressure is increasing on
+            the few Lloyd’s members who continue to insure the project and other
+            who refuse to rule it out.
+          </p>
+          <br />
+          <p>
+            That pressure is increasingly being felt by the entire Lloyd’s
+            market and brand. It is time for the entire Lloyd’s market to close
+            its doors to Adani for good.
+          </p>
+        </>
+      ),
+      image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
+      imgBackground: "bg-yellow-600",
+      imgPosition: "left",
+      sources: ["BBC", "CNN", "New York Times"],
+      className: "bg-gray-1500 text-white",
+    },
+    {
+      heading: "Trans Mountain Pipeline Expansion - Canada",
+      description: (
+        <>
+          <p>
+            In 2010 when Indian company Adani Group originally proposed the
+            Carmichael coal mine in Queensland, Australia, it was planned to be
+            one of the largest mines in the world.
+          </p>
+          <br />
+          <p>
+            If built, it would “allow 500 more coal ships to travel through the
+            Great Barrier Reef World Heritage Area every year for 60 years,” and
+            “destroy the ancestral lands, waters and cultures of Indigenous
+            people without their consent.”
+          </p>
+          <br />
+          <p>
+            If allowed to operate, it is estimated the mine will add 4.6 billion
+            tonnes of carbon pollution to the atmosphere and will suck out at
+            least 270 billion litres of groundwater over the life of the mine.
+            To date,more than 70 financial institutions, including 27 insurers,
+            have withdrawn from or committed not to be involved in the Adani
+            Carmichael coal mine.
+          </p>
+          <br />
+          <p>
+            However, in 2019 Lloyd’s members started insuring Adani at the very
+            time other more responsible insurers were refusing to do so and in
+            contradiction to statements made by Lloyd’s to the Insure our Future
+            network (previously the Unfriend Coal network) earlier that year.
+          </p>
+          <br />
+          <p>
+            The #StopAdanicampaign is demanding companies commit to ending their
+            association with the climate-wrecking Carmichael project. Many
+            Lloyd’s members have already publicly ruled out insuring Adani or
+            said they will not provide further cover. Pressure is increasing on
+            the few Lloyd’s members who continue to insure the project and other
+            who refuse to rule it out.
+          </p>
+          <br />
+          <p>
+            That pressure is increasingly being felt by the entire Lloyd’s
+            market and brand. It is time for the entire Lloyd’s market to close
+            its doors to Adani for good.
+          </p>
+        </>
+      ),
+      image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
+      imgBackground: "bg-blue-900",
+      imgPosition: "left",
+      sources: ["BBC", "CNN", "New York Times"],
+      className: "bg-gray-1500 text-white",
+    },
+    {
+      heading: "Coal Mine (re)insurance -Poland",
+      description: (
+        <>
+          <p>
+            In 2010 when Indian company Adani Group originally proposed the
+            Carmichael coal mine in Queensland, Australia, it was planned to be
+            one of the largest mines in the world.
+          </p>
+          <br />
+          <p>
+            If built, it would “allow 500 more coal ships to travel through the
+            Great Barrier Reef World Heritage Area every year for 60 years,” and
+            “destroy the ancestral lands, waters and cultures of Indigenous
+            people without their consent.”
+          </p>
+          <br />
+          <p>
+            If allowed to operate, it is estimated the mine will add 4.6 billion
+            tonnes of carbon pollution to the atmosphere and will suck out at
+            least 270 billion litres of groundwater over the life of the mine.
+            To date,more than 70 financial institutions, including 27 insurers,
+            have withdrawn from or committed not to be involved in the Adani
+            Carmichael coal mine.
+          </p>
+          <br />
+          <p>
+            However, in 2019 Lloyd’s members started insuring Adani at the very
+            time other more responsible insurers were refusing to do so and in
+            contradiction to statements made by Lloyd’s to the Insure our Future
+            network (previously the Unfriend Coal network) earlier that year.
+          </p>
+          <br />
+          <p>
+            The #StopAdanicampaign is demanding companies commit to ending their
+            association with the climate-wrecking Carmichael project. Many
+            Lloyd’s members have already publicly ruled out insuring Adani or
+            said they will not provide further cover. Pressure is increasing on
+            the few Lloyd’s members who continue to insure the project and other
+            who refuse to rule it out.
+          </p>
+          <br />
+          <p>
+            That pressure is increasingly being felt by the entire Lloyd’s
+            market and brand. It is time for the entire Lloyd’s market to close
+            its doors to Adani for good.
+          </p>
+        </>
+      ),
+      image: "https://dummyimage.com/628x487/000/fff&text=DummyImage",
+      imgBackground: "bg-blue-900",
+      imgPosition: "right",
+      sources: ["BBC", "CNN", "New York Times"],
+      className: "bg-gray-1500 text-white",
+    },
+  ];
+
   return (
     <div>
       <ImageWithInfo />
@@ -34,6 +203,11 @@ function MembersContainer() {
         </p>
       </div>
       <FigureAssets />
+      <div className="w-11/12 mx-auto">
+        {accordionContent.map((accordion) => {
+          return <Accordion {...accordion} />;
+        })}
+      </div>
       <div className="w-full flex flex-col bg-gray-200 sm:py-12 p-8 sm:px-20 text-gray-900">
         <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
           What is Lloyd’s?
