@@ -4,8 +4,8 @@ function FigureAssets({ assets }) {
   const lastIdx = assets.length - 1;
   return (
     <section className="w-full px-8 sm:px-20 pt-10 pb-20 bg-black text-white">
-      <div className="mb-8 sm:mb-15">
-        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
+      <div className="mb-8 sm:mb-12">
+        <h3 className="font-bold sm:text-5xl text-2xl mb-5 sm:mb-8">
           Figure on Assets
         </h3>
         <p className="sm:text-2xl text-base">
@@ -17,12 +17,12 @@ function FigureAssets({ assets }) {
         {assets.map((asset, idx) => {
           return (
             <div
-              className={`max-w-sm w-full bg-gray-1000 lg:pt-15 px-10 items-center lg:items-start justify-center lg:justify-start sm:px-12 h-48 sm:h-280 flex flex-col lg:my-0 my-5 ${
+              className={`max-w-sm w-full bg-gray-1000 lg:pt-16 px-8 items-center lg:items-start justify-center lg:justify-start  h-48 sm:h-280 flex flex-col lg:my-0 my-5 ${
                 idx !== lastIdx && "lg:mr-10"
               }`}
               key={Math.random()}
             >
-              <h2 className="xl:text-6xl sm:text-5xl text-4xl leading-none font-bold">
+              <h2 className="xl:text-6xl sm:text-4xl text-4xl leading-none font-bold">
                 {asset.figure}
               </h2>
               <p className="xl:text-3xl sm:text-2xl text-xl mt-2">
