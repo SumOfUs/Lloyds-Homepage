@@ -58,7 +58,7 @@ function Accordion({
 }
 
 Accordion.defaultProps = {
-  accordionOpen: true,
+  accordionOpen: false,
   heading: "Lloyd’s Syndicates",
   className: "bg-gray-200 text-gray-900",
   description: (

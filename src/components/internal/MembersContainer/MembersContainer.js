@@ -20,6 +20,7 @@ function MembersContainer() {
       description:
         "A Lloyd’s syndicate is formed by one or more members joining together to provide capital and accept insurance risks. There are currently 93syndicates, which are set up on an annual basis. In practice, they usually operate from year to year and function like permanent insurance operations. Lloyd’s syndicates insure a wide range of specialist risk. All Lloyd’s syndicates benefit from Lloyd’s central resources, including Lloyd's brand, its network of global licences and the Central Fund.",
       className: "bg-gray-200 text-gray-900",
+      accordionOpen: true,
     },
     {
       heading: "Lloyd’s corporation",
