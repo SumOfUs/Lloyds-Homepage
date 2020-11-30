@@ -7,7 +7,7 @@ function InfoWithCta({ heading, description, buttonText, isDark }) {
         isDark ? "bg-gray-1500 text-white" : "bg-gray-200 text-gray-900"
       }`}
     >
-      <div className="sm:py-16 py-8 max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12">
+      <div className="sm:py-12 py-8 max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12">
         <h3 className="primary-extra-bold sm:text-5xl text-2xl mb-5 sm:mb-10">
           {heading}
         </h3>
