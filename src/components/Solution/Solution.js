@@ -244,6 +244,7 @@ const Solution = () => {
           </a>
         </div>
       </div>
+
       <Footer />
     </div>
   );

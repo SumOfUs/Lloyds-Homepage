@@ -45,8 +45,8 @@ function Accordion({
             <div className="mt-5">
               <h5 className="text-3xl primary-bold font-bold">Sources</h5>
               <div className="flex flex-wrap space-x-6 mt-12">
-                {sources.map((source) => {
-                  return <SourceTag>{source}</SourceTag>;
+                {sources.map((source, index) => {
+                  return <SourceTag key={index}>{source}</SourceTag>;
                 })}
               </div>
             </div>
