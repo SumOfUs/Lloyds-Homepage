@@ -1,6 +1,6 @@
 import Footer from "../src/components/internal/Footer";
 import Header from "../src/components/internal/Header";
-import ActWrapper from "../src/components/internal/Act";
+import ActWrapper from "../src/components/Act";
 
 function Act() {
   return (

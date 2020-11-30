@@ -1,9 +1,9 @@
 import React from "react";
-import ImageWithInfo from "../ImageWithInfo";
-import FigureAssets from "../FigureAssets";
-import Accordion from "../Accordion";
+import ImageWithInfo from "../internal/ImageWithInfo";
+import FigureAssets from "../internal/FigureAssets";
+import Accordion from "../internal/Accordion";
 
-function MembersContainer() {
+function Members() {
   const imageWithInfoContent = {
     borderPosition: "right",
     heading: "Lloyd’s Members",
@@ -91,4 +91,4 @@ function MembersContainer() {
   );
 }
 
-export default MembersContainer;
+export default Members;

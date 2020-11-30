@@ -1,8 +1,8 @@
 import React from "react";
-import ImageWithInfo from "../ImageWithInfo";
-import PhotosContainer from "../PhotosContainer";
-import InfoWithCta from "../InfoWithCta";
-import SignUpContainer from "../../Home/SignUpContainer";
+import ImageWithInfo from "../internal/ImageWithInfo";
+import PhotosContainer from "../internal/PhotosContainer";
+import InfoWithCta from "../internal/InfoWithCta";
+import SignUpContainer from "../Home/SignUpContainer";
 
 function Act() {
   const imageWithInfoContent = {
