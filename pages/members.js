@@ -1,6 +1,6 @@
 import Footer from "../src/components/internal/Footer";
 import Header from "../src/components/internal/Header";
-import MembersContainer from "../src/components/internal/MembersContainer";
+import MembersContainer from "../src/components/Members";
 
 function Members() {
   return (

@@ -11,7 +11,7 @@ function ImageCard({ borderPosition, image, imgBackground, className, rest }) {
       {...rest}
     >
       <img
-        className={`flex w-full ${
+        className={`flex ${
           borderPosition === "right"
             ? "sm:-translate-x-6 -translate-x-3 sm:-translate-y-6 -translate-y-3"
             : "sm:translate-x-6 translate-x-3 sm:translate-y-6 translate-y-3"

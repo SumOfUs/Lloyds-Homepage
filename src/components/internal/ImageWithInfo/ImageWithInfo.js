@@ -11,15 +11,15 @@ function ImageWithInfo({
 }) {
   return (
     <section
-      className={`container flex ${
+      className={`flex ${
         borderPosition === "right"
           ? "lg:flex-row flex-col-reverse"
           : "lg:flex-row-reverse flex-col"
-      } xl:pl-20 xl:py-20 sm:pr-12 sm:pl-16 sm:py-16 p-6 items-center`}
+      } max-w-1440 3xl:mx-auto 2xl:mx-16 mx-12 xl:py-20 sm:py-16 py-6 items-center`}
     >
       <div
         className={`flex flex-col lg:w-1/2 ${
-          borderPosition === "right" ? "xl:mr-24 lg:mr-16" : "xl:ml-24 lg:ml-16"
+          borderPosition === "right" ? "lg:pr-12" : "lg:pl-12"
         }`}
       >
         <h2 className="lg:text-6xl sm:text-5xl text-4xl mb-10 leading-none primary-black">
@@ -34,7 +34,7 @@ function ImageWithInfo({
           {description}
         </p>
       </div>
-      <div className="lg:w-1/2 lg:p-0 p-10">
+      <div className="lg:w-1/2 lg:mx-12 lg:p-0 py-10">
         <ImageCard {...{ borderPosition, image, imgBackground }} />
       </div>
     </section>
